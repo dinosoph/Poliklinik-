@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');  // About page
-})->name('about');
+    return view('about');  // Ensure about.blade.php exists in resources/views
+});
