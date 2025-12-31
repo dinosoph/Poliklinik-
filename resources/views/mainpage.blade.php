@@ -44,8 +44,8 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <img src="assets/img/logo1.png" alt="">
+        <!-- <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="bgCarrier" stroke-width="0"></g>
           <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="iconCarrier">
@@ -65,49 +65,20 @@
             <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </g>
-        </svg>
+        </svg> -->
 
-        <h1 class="sitename">MediTrust</h1>
+        <h1 class="sitename">Poliklinik Alisya</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <a href="{{ url('/about') }}">About</a>        
+          <li><a href="{{ url('/') }}" class="active">Home</a></li>
+          <li><a href="{{ url('/about') }}">About</a></li>        
           <li><a href="departments.html">Departments</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="doctors.html">Doctors</a></li>
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="department-details.html">Department Details</a></li>
-              <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="appointment.html">Appointment</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="faq.html">Frequently Asked Questions</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ url('/testimonials') }}">Testimonials</a></li>
+          <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -1009,13 +980,13 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">MediTrust</span>
+            <span class="sitename">Poliklinik Alisya</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>38-G, Jalan TK 5/32a, Taman Mawar</p>
+            <p>47100 Puchong, Selangor</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>011-6229 1644</span></p>
+            <p><strong>Email:</strong> <span>alisyahealthcare@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>

@@ -36,7 +36,8 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <img src="assets/img/logo1.png" alt="">
+        <!-- <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="bgCarrier" stroke-width="0"></g>
           <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="iconCarrier">
@@ -56,48 +57,19 @@
             <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </g>
-        </svg>
-        <h1 class="sitename">MediTrust</h1>
+        </svg> -->
+        <h1 class="sitename">Poliklinik Alisya</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <a href="{{ url('/') }}" >Home</a>
-          <li><a href="about.html" class="active">About</a></li>        
+          <li><a href="{{ url('/') }}" >Home</a></li>
+          <li><a href="{{ url('/about') }}" class="active">About</a></li>        
           <li><a href="departments.html">Departments</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="doctors.html">Doctors</a></li>
-           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="department-details.html">Department Details</a></li>
-              <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="appointment.html">Appointment</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="faq.html">Frequently Asked Questions</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{ url('/testimonials') }}">Testimonials</a></li>
+          <li><a href="{{ url('/contact') }}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -112,16 +84,13 @@
         <div class="breadcrumbs">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Category</a></li>
-                    <li class="breadcrumb-item active current">About</li>
                 </ol>
             </nav>
         </div>
 
         <div class="title-wrapper">
             <h1 class="page-heading">About</h1>
-            <p class="page-subheading">Poliklinik Alisya offers comprehensive healthcare services with a focus on personalized care. Our team is committed to providing quality medical treatments to ensure the well-being of our patients.</p>
+            <p class="page-subheading">At Poliklinik Alisya, every patient is treated with dedication, respect, and genuine care. We focus on creating comfortable experience from the moment you step in combining attentive service, clear communication, and personalized treatment.</p>
         </div>
     </div><!-- End Page Title -->
 
@@ -132,15 +101,15 @@
                 <div class="col-lg-6">
                     <div class="content">
                         <h2 class="about-heading">Committed to Excellence in Healthcare</h2>
-                        <p class="about-text">Poliklinik Alisya is a trusted healthcare provider dedicated to offering top-quality medical services. With a team of experienced professionals, we focus on delivering personalized care to meet the unique needs of every patient.</p>
-                        <p class="about-text">Our clinic offers a wide range of services, including general check-ups, specialist consultations, diagnostics, and more, all aimed at promoting health and wellness in the community. At Poliklinik Alisya, your health is our top priority.</p>
+                        <p class="about-text">At Poliklinik Alisya, we believe every patient deserves care that is attentive, respectful, and genuine. From the moment you arrive, our team strives to make you feel at ease with warm service, clear communication, and personalized treatment suited to your needs.</p>
+                        <p class="about-text">We are committed to building long-term relationships with our patients by listening closely to your concerns, guiding your health decisions, and offering consistent follow-up and preventive care. Our goal is not only to treat illnesses but to support your overall well-being with a healthcare experience you can trust.</p>
 
                         <div class="stats-container" data-aos="fade-up" data-aos-delay="200">
                             <div class="row gy-4">
                                 <div class="col-sm-6 col-lg-12 col-xl-6">
                                     <div class="stat-item">
                                         <div class="stat-number">
-                                            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>+
+                                            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>+
                                         </div>
                                         <div class="stat-label">Years of Experience</div>
                                     </div>
@@ -148,7 +117,7 @@
                                 <div class="col-sm-6 col-lg-12 col-xl-6">
                                     <div class="stat-item">
                                         <div class="stat-number">
-                                            <span data-purecounter-start="0" data-purecounter-end="50000" data-purecounter-duration="2" class="purecounter"></span>+
+                                            <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="2" class="purecounter"></span>+
                                         </div>
                                         <div class="stat-label">Patients Treated</div>
                                     </div>
@@ -166,14 +135,14 @@
                 <div class="col-lg-6">
                     <div class="image-section" data-aos="fade-left" data-aos-delay="200">
                         <div class="main-image">
-                            <img src="assets/img/health/consultation-3.webp" alt="Healthcare consultation" class="img-fluid">
+                            <img src="assets/img/health/about1.png" alt="Healthcare consultation" class="img-fluid">
                         </div>
                         <div class="image-grid">
                             <div class="grid-item">
-                                <img src="assets/img/health/facilities-2.webp" alt="Medical facility" class="img-fluid">
+                                <img src="assets/img/health/about2.png" alt="Medical facility" class="img-fluid">
                             </div>
                             <div class="grid-item">
-                                <img src="assets/img/health/staff-5.webp" alt="Medical staff" class="img-fluid">
+                                <img src="assets/img/health/about3.png" alt="Medical staff" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -184,27 +153,45 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-header">
-                            <h3 class="certifications-heading">Accreditations & Certifications</h3>
-                            <p class="certifications-text">We are proud to be accredited by leading healthcare organizations</p>
+                            <h3 class="certifications-heading">Introducing Poliklinik Alisya’s Official Panels</h3>
+                            <p class="certifications-text">We are proud to serve as an authorised panel clinic for leading organisations and insurance providers.</p>
                         </div>
                         <div class="certifications-grid">
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-1.webp" alt="JCI Accreditation" class="img-fluid">
+                                <img src="assets/img/clients/c1.png" alt="JCI Accreditation" class="img-fluid">
                             </div>
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-2.webp" alt="NABH Certification" class="img-fluid">
+                                <img src="assets/img/clients/c2.png" alt="NABH Certification" class="img-fluid">
                             </div>
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-3.webp" alt="ISO 9001" class="img-fluid">
+                                <img src="assets/img/clients/c3.png" alt="ISO 9001" class="img-fluid">
                             </div>
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-4.webp" alt="CAP Accreditation" class="img-fluid">
+                                <img src="assets/img/clients/c4.png" alt="CAP Accreditation" class="img-fluid">
                             </div>
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-5.webp" alt="Medical Board" class="img-fluid">
+                                <img src="assets/img/clients/c5.png" alt="Medical Board" class="img-fluid">
                             </div>
                             <div class="certification-item">
-                                <img src="assets/img/clients/clients-6.webp" alt="Healthcare Association" class="img-fluid">
+                                <img src="assets/img/clients/c6.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c7.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c8.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c9.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c10.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c11.png" alt="Healthcare Association" class="img-fluid">
+                            </div>
+                            <div class="certification-item">
+                                <img src="assets/img/clients/c12.png" alt="Healthcare Association" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -221,13 +208,13 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">MediTrust</span>
+            <span class="sitename">Poliklinik Alisya</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>38-G, Jalan TK 5/32a, Taman Mawar</p>
+            <p>47100 Puchong, Selangor</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>011-6229 1644</span></p>
+            <p><strong>Email:</strong> <span>alisyahealthcare@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
