@@ -33,6 +33,13 @@
                 <select name="department" class="form-select">
                     <option {{ $member->department == 'Neurology' ? 'selected' : '' }}>Neurology</option>
                     <option {{ $member->department == 'Surgery' ? 'selected' : '' }}>Surgery</option>
+                    <option {{ $member->department == 'Dermatology' ? 'selected' : '' }}>Dermatology</option>
+                    <option {{ $member->department == 'Oncology' ? 'selected' : '' }}>Oncology</option>
+                    <option {{ $member->department == 'Cardiology' ? 'selected' : '' }}>Cardiology</option>
+                    <option {{ $member->department == 'Neurology' ? 'selected' : '' }}>Neurology</option>
+                    <option {{ $member->department == 'Orthopedics' ? 'selected' : '' }}>Orthopedics</option>
+                    <option {{ $member->department == 'Pediatrics' ? 'selected' : '' }}>Pediatrics</option>
+                    <option {{ $member->department == 'Pharmacy' ? 'selected' : '' }}>Pharmacy</option>
                     {{-- Add other options similarly --}}
                 </select>
             </div>
