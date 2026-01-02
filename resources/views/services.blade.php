@@ -425,7 +425,7 @@
                 <h3>Ready to Schedule Your Appointment?</h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.</p>
                 <div class="cta-buttons">
-                  <a href="appointment.html" class="btn-book">Book Now</a>
+                  <a href="/appointment" class="btn-book">Book Now</a>
                   <a href="contact.html" class="btn-contact">Contact Us</a>
                 </div>
               </div>
