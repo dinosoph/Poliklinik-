@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\StaffController;
 use App\Http\Controllers\AdminController;
 
@@ -17,6 +18,10 @@ Route::get('/services', function () {
 Route::get('/appointment', function () {
     return view('appointment');
 });
+
+Route::post('/appointment/store', [AppointmentController::class, 'store'])
+    ->name('appointment.store');
+    
 
 // 2. Admin Routes for Poliklinik Alisya (Add these below)
 Route::prefix('admin')->group(function () {

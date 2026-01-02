@@ -195,7 +195,8 @@
           <!-- Appointment Form -->
           <div class="col-lg-6">
             <div class="appointment-form-wrapper" data-aos="fade-up" data-aos-delay="200">
-              <form action="forms/appointment.php" method="post" class="appointment-form php-email-form">
+              <form action="{{ route('appointment.store') }}" method="POST" class="appointment-form">
+                @csrf
                 <div class="row gy-3">
 
                   <div class="col-md-6">
@@ -243,10 +244,7 @@
                   </div>
 
                   <div class="col-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your appointment request has been sent successfully. We will contact you shortly!</div>
-
+                    
                     <button type="submit" class="btn btn-appointment w-100">
                       <i class="bi bi-calendar-plus me-2"></i>Book Appointment
                     </button>
@@ -254,6 +252,11 @@
 
                 </div>
               </form>
+              @if(session('success'))
+                <div class="alert alert-success mt-4 text-center">
+                {{ session('success') }}
+                </div>
+              @endif
             </div>
           </div><!-- End Appointment Form -->
 
