@@ -10,18 +10,35 @@ use App\Http\Controllers\AdminController;
 Route::get('/', function () {
     return view('mainpage');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/departments', function () {
+    return view('departments');
+});
 
 Route::get('/services', function () {
     return view('services');
 });
+Route::get('/doctors', function () {
+    return view('doctors');
+});
 
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+    
 Route::get('/appointment', function () {
     return view('appointment');
 });
 
 Route::post('/appointment/store', [AppointmentController::class, 'store'])
     ->name('appointment.store');
-    
+
+
 
 // 2. Admin Routes for Poliklinik Alisya (Add these below)
 Route::prefix('admin')->group(function () {
