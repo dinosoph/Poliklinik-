@@ -5921,3 +5921,81 @@ section,
   padding-bottom: 60px;
   /* Add your styles here */
 }
+
+/* Page Title */
+.page-title {
+    margin-top: 70px; /* Ensures it's not hidden under the header */
+}
+
+.page-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.page-subheading {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* About Section */
+.about-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Stats Section */
+.stats-container {
+    margin-top: 40px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* CTA Buttons */
+.cta-buttons a {
+    margin-right: 15px;
+}
+
+/* Certifications Section */
+.certifications-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.certifications-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.certifications-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.certification-item {
+    flex: 1 1 calc(33% - 15px);
+    margin-bottom: 15px;
+}
