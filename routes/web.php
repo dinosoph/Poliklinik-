@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\StaffController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
 
 
 // 1. Public Routes for Poliklinik Alisya (Existing routes)
@@ -40,6 +44,28 @@ Route::post('/appointment/store', [AppointmentController::class, 'store'])
 
 
 
+Route::get('/about', function () {
+    return view('about');  
+});
+
+/* Route::get('/contact', function () {
+    return view('contact');
+}); */
+
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});
+
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
 // 2. Admin Routes for Poliklinik Alisya (Add these below)
 Route::prefix('admin')->group(function () {
     
