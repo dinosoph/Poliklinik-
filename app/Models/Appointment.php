@@ -12,6 +12,7 @@ class Appointment extends Model
         'phone',
         'department',
         'date',
+        'time',
         'doctor',
         'message',
     ];

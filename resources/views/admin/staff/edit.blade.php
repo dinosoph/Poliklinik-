@@ -1,13 +1,29 @@
 @extends('master.admin_layout')
 
 @section('content')
+
+    <!-- Breadcrumbs -->
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb justify-content-center" style="background: transparent;">
+            <li class="breadcrumb-item" style="color: #6c757d;">
+                <a href="{{ route('staff.dashboard') }}" style="color: #6c757d; text-decoration: none;">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item" style="color: #6c757d;">
+                <a href="{{ route('staff.index') }}" style="color: #6c757d; text-decoration: none;">Staff List</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page" style="color: #499FB6;">
+                Edit Staff
+            </li>
+        </ol>
+    </nav>
+
 <div class="container">
     <h5 class="mb-4">Edit Staff Details</h5>
     <div class="card p-4 border-0 shadow-sm" style="border-radius: 15px;">
         {{-- Action points to update; method must be changed to PATCH for Laravel --}}
         <form action="{{ route('staff.update', $member->id) }}" method="POST">
             @csrf
-            @method('PATCH') {{-- Required for update actions --}}
+            @method('PATCH') {{-- Required for udate actions --}}
 
             <div class="row mb-3">
                 <div class="col-md-6">

@@ -1,9 +1,22 @@
 @extends('master.admin_layout')
 
 @section('content')
+
+<!-- Breadcrumbs -->
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb justify-content-center" style="background: transparent;">
+            <li class="breadcrumb-item" style="color: #6c757d;">
+                <a href="{{ route('staff.dashboard') }}" style="color: #6c757d; text-decoration: none;">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page" style="color: #499FB6;">
+                Staff List
+            </li>
+        </ol>
+    </nav>
+
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h5 class="text-secondary">Staff List</h5>
-    <a href="{{ route('staff.create') }}" class="btn btn-info text-white">+ ADD STAFF</a>
+    <a href="{{ route('staff.create') }} " class="btn btn-info text-white">+ ADD STAFF</a>
 </div>
 
 <div class="card shadow-sm border-0" style="border-radius: 15px;">

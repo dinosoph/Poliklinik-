@@ -174,33 +174,12 @@
                     <input type="tel" name="phone" class="form-control" placeholder="Your Phone Number" required="">
                   </div>
 
-                  <div class="col-md-6">
-                    <select name="department" class="form-select" required="">
-                      <option value="">Select Department</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="neurology">Neurology</option>
-                      <option value="orthopedics">Orthopedics</option>
-                      <option value="pediatrics">Pediatrics</option>
-                      <option value="dermatology">Dermatology</option>
-                      <option value="general">General Medicine</option>
-                    </select>
-                  </div>
-
+                 
                   <div class="col-md-6">
                     <input type="date" name="date" class="form-control" required="">
                   </div>
 
-                  <div class="col-md-6">
-                    <select name="doctor" class="form-select" required="">
-                      <option value="">Select Doctor</option>
-                      <option value="dr-johnson">Dr. Sarah Johnson</option>
-                      <option value="dr-martinez">Dr. Michael Martinez</option>
-                      <option value="dr-chen">Dr. Lisa Chen</option>
-                      <option value="dr-patel">Dr. Raj Patel</option>
-                      <option value="dr-williams">Dr. Emily Williams</option>
-                      <option value="dr-thompson">Dr. David Thompson</option>
-                    </select>
-                  </div>
+                  
 
                   <div class="col-12">
                     <textarea class="form-control" name="message" rows="5" placeholder="Please describe your symptoms or reason for visit (optional)"></textarea>

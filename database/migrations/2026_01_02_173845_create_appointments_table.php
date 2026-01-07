@@ -16,9 +16,13 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('phone');
-            $table->string('department');
+            $table->string('department')->nullable();
             $table->date('date');
-            $table->string('doctor');
+
+            // ADD THIS LINE HERE
+            $table->time('time')->nullable(); 
+
+            $table->string('doctor')->nullable();
             $table->text('message')->nullable();
             $table->timestamps();
         });

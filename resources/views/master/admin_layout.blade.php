@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="refresh" content="60">
     <title>Poliklinik Alisya Admin</title>
 
     <!-- Vendor CSS Files from your public/assets folder [5] -->
@@ -49,14 +50,25 @@
         </div>
 
         <nav class="nav flex-column">
-            <!-- Navigation items matching the design [3, 6] -->
-            <a class="nav-link {{ request()->routeIs('staff.*') ? 'active' : '' }}" href="{{ route('staff.index') }}">
+            <!-- Dashboard -->
+            <a class="nav-link {{ request()->routeIs('staff.dashboard') ? 'active' : '' }}"
+            href="{{ route('staff.dashboard') }}">
+                <i class="bi bi-speedometer2"></i> Dashboard
+            </a>
+
+            <!-- Staff Profile -->
+            <a class="nav-link {{ request()->routeIs('staff.index') || request()->routeIs('staff.edit') ? 'active' : '' }}"
+            href="{{ route('staff.index') }}">
                 <i class="bi bi-people-fill"></i> Staff Profile
             </a>
-            <a class="nav-link {{ request()->is('admin/bookings*') ? 'active' : '' }}" href="#">
+
+            <!-- Booking List -->
+            <a class="nav-link {{ request()->routeIs('bookings.*') ? 'active' : '' }}"
+            href="{{ route('bookings.index') }}">
                 <i class="bi bi-list-ul"></i> Booking List
             </a>
         </nav>
+
 
         <!-- Log Out Button at the bottom [3, 4] -->
         <a href="#" class="logout-btn">
