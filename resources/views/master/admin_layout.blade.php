@@ -31,12 +31,16 @@
         }
         .nav-link i { margin-right: 15px; font-size: 1.2rem; }
         .main-content { margin-left: 260px; padding: 40px; }
-        .logout-btn { 
-            margin-top: auto; padding: 10px 25px; 
-            color: #499FB6; border: 1px solid #499FB6;
-            margin-left: 25px; margin-right: 25px; border-radius: 5px;
-            text-decoration: none; text-align: center;
+        .logout-btn {
+            padding: 10px 20px;
+            width: auto;                  /* only as wide as content */
+            display: flex;
+            justify-content: center;
+            margin: 0 auto 20px auto;     /* centers horizontally */
+            align-items: center;
+            gap: 10px;
         }
+
     </style>
 </head>
 
@@ -45,7 +49,7 @@
     <!-- Sidebar Section [3, 4] -->
     <div class="sidebar">
         <div class="sidebar-brand">
-            <img src="{{ asset('assets/img/logo.png') }}" alt="Logo"> <!-- Ensure logo is in public/assets/img [5] -->
+            <img src="{{ asset('assets/img/logo1.png') }}" alt="Logo"> <!-- Ensure logo is in public/assets/img [5] -->
             <h5 class="m-0" style="color: #499FB6;">Poliklinik Alisya</h5>
         </div>
 
@@ -71,9 +75,16 @@
 
 
         <!-- Log Out Button at the bottom [3, 4] -->
-        <a href="#" class="logout-btn">
-            <i class="bi bi-box-arrow-left"></i> Log Out
-        </a>
+        <div style="margin-top: auto; padding: 0 25px 20px 25px;">
+            <form action="{{ route('admin.logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="logout-btn w-100">
+                    <i class="bi bi-box-arrow-left"></i> Log Out
+                </button>
+            </form>
+        </div>
+
+
     </div>
 
     <!-- Main Content Area [2, 7] -->
