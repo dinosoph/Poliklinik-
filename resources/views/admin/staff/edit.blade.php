@@ -2,6 +2,100 @@
 
 @section('content')
 
+<style>
+/* =========================
+    CARD STYLING
+========================= */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+    FORM INPUTS
+========================= */
+.form-control, .form-select {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #499FB6;
+    box-shadow: 0 0 8px rgba(73, 159, 182, 0.2);
+    outline: none;
+}
+
+/* LABELS */
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #495057;
+}
+
+/* SAVE BUTTON */
+.btn {
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(73, 159, 182, 0.2);
+}
+
+/* BREADCRUMBS */
+.breadcrumb {
+    background: transparent !important;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #6c757d;
+    padding: 0 6px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #499FB6;
+}
+
+/* HEADINGS */
+h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+/* RESPONSIVE FORM */
+@media (max-width: 767px) {
+    .row.mb-3 .col-md-6 {
+        margin-bottom: 15px;
+    }
+    .d-flex.justify-content-end {
+        justify-content: center;
+    }
+}
+</style>
+
+
     <!-- Breadcrumbs -->
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb justify-content-center" style="background: transparent;">

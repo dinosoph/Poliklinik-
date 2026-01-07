@@ -2,6 +2,160 @@
 
 @section('content')
 
+<style>
+/* =========================
+    CARD STYLING
+========================= */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+    TABLE STYLING
+========================= */
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    overflow: hidden;
+}
+
+thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+tbody tr {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(73, 159, 182, 0.1);
+}
+
+tbody tr.table-success {
+    background-color: #e6f9f0 !important;
+}
+
+table td, table th {
+    vertical-align: middle;
+    border: none !important;
+}
+
+/* =========================
+    BUTTONS & BADGES
+========================= */
+.btn-outline-primary, .btn-outline-info, .btn-outline-secondary {
+    border-width: 2px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #499FB6;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(73, 159, 182, 0.2);
+}
+
+.btn-outline-info:hover {
+    background-color: #499FB6;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(73, 159, 182, 0.2);
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.2);
+}
+
+.badge {
+    border-radius: 12px;
+    font-size: 0.85rem;
+    padding: 0.4em 0.8em;
+    transition: all 0.3s ease;
+}
+
+/* =========================
+    UPCOMING APPOINTMENT CARD
+========================= */
+#next-appointment-card .card {
+    border-left: 5px solid #499FB6;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #FFFFFF, #E6F7FF);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+#next-appointment-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(73, 159, 182, 0.2);
+}
+
+/* =========================
+    HEADINGS & SPACING
+========================= */
+h3, h5 {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+/* =========================
+    BREADCRUMBS
+========================= */
+.breadcrumb {
+    background: transparent !important;   /* remove background */
+    padding: 0 !important;               /* remove padding */
+    margin-bottom: 20px;                 /* spacing below heading */
+    border-radius: 0 !important;         /* remove rounded edges */
+    box-shadow: none !important;         /* remove any shadow */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";                         /* arrow separator */
+    color: #6c757d;
+    padding: 0 6px;
+    font-weight: 500;
+}
+
+.breadcrumb a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #499FB6;
+}
+
+.breadcrumb-item.active {
+    color: #499FB6; /* active item color */
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+    table {
+        font-size: 0.9rem;
+    }
+    .d-flex.justify-content-center {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+
     <!-- Breadcrumbs -->
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb justify-content-center" style="background: transparent;">
