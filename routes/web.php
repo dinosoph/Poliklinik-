@@ -7,6 +7,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\EmailLogController;
 
 Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
 Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
@@ -92,6 +93,8 @@ Route::prefix('admin')->group(function () {
         Route::get('/bookings/{id}/assign', [AppointmentController::class, 'edit'])->name('bookings.assign');
         Route::put('/bookings/{id}', [AppointmentController::class, 'update'])->name('bookings.update');
         Route::get('/bookings/{id}/view', [AppointmentController::class, 'show'])->name('bookings.show');
+        Route::get('/email-log', [EmailLogController::class, 'index'])->middleware('auth');
+
 
     });
 

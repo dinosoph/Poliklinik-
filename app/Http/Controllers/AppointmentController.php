@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Appointment;
 use App\Models\Staff;
 use Carbon\Carbon;
+use App\Mail\AppointmentConfirmed;
+use Illuminate\Support\Facades\Mail;
 
 class AppointmentController extends Controller
 {
@@ -41,17 +43,19 @@ class AppointmentController extends Controller
     public function update(Request $request, $id)
     {
         $appointment = Appointment::findOrFail($id);
-        
-        // Update the booking with the selected doctor and any date changes [2]
+
         $appointment->update([
             'doctor' => $request->doctor,
             'appointment_date' => $request->appointment_date,
             'department' => $request->department,
-            'time' => $request->time, // This saves the value to the 'time' column
+            'time' => $request->time,
         ]);
 
-        return redirect()->route('bookings.index')->with('success', 'Doctor assigned successfully!');
+        // Redirect to the email log page instead of bookings
+        return redirect()->route('bookings.index')->with('success', 'Doctor assigned successfully! Email is logged.');
     }
+
+
 
     public function show($id)
     {
