@@ -6,10 +6,6 @@ use App\Http\Controllers\StaffController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ContactController;
 
-Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
-Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
-
-
 // 1. Public Routes for Poliklinik Alisya (Existing routes)
 Route::get('/', function () {
     return view('mainpage');
@@ -31,31 +27,16 @@ Route::get('/doctors', function () {
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
-    
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
 
 Route::post('/appointment/store', [AppointmentController::class, 'store'])
     ->name('appointment.store');
-
-
-
-Route::get('/about', function () {
-    return view('about');  
-});
-
-/* Route::get('/contact', function () {
-    return view('contact');
-}); */
-
-Route::get('/testimonials', function () {
-    return view('testimonials');
-});
-
 
 Route::middleware([
     'auth:sanctum',

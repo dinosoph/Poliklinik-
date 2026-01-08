@@ -44,8 +44,8 @@
 
       <a href="/mainpage" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <img src="assets/img/logo1.png" alt="">
+        <!-- <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="bgCarrier" stroke-width="0"></g>
           <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="iconCarrier">
@@ -65,9 +65,9 @@
             <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </g>
-        </svg>
+        </svg> -->
 
-        <h1 class="sitename">MediTrust</h1>
+        <h1 class="sitename">Poliklinik Alisya</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -95,13 +95,13 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="/mainpage" class="logo d-flex align-items-center">
-            <span class="sitename">MediTrust</span>
+            <span class="sitename">Poliklinik Alisya</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>38-G, Jalan TK 5/32a, Taman Mawar</p>
+            <p>47100 Puchong, Selangor</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>011-6229 1644</span></p>
+            <p><strong>Email:</strong> <span>alisyahealthcare@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
