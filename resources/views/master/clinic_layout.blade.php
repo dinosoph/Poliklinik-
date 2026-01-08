@@ -72,13 +72,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/mainpage" class="active">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/departments">Departments</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/doctors">Doctors</a></li>
-          <li><a href="/testimonials">Testimonials</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/mainpage" class=
+            "{{ request()->is('mainpage') ? 'active' : '' }}">Home</a></li>
+          <li><a href="/about" class=
+            "{{ request()->is('about') ? 'active' : '' }}">About</a></li>
+          <li><a href="/department" class=
+            "{{ request()->is('department') ? 'active' : '' }}">Department</a></li></li>
+          <li><a href="/services" class=
+            "{{ request()->is('services') ? 'active' : '' }}">Services</a></li>
+          <li><a href="/doctors" class=
+            "{{ request()->is('doctors') ? 'active' : '' }}">Doctors</a></li></li>
+          <li><a href="/testimonials" class=
+            "{{ request()->is('testimonials') ? 'active' : '' }}">Testimonials</a></li></li>
+          <li><a href="/contact" class=
+            "{{ request()->is('contact') ? 'active' : '' }}">Contact</a></li></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
