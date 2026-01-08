@@ -74,9 +74,9 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="departments.html">Departments</a></li>
+          <li><a href="departments.blade.php">Departments</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="doctors.html">Doctors</a></li>
+          <li><a href="doctors.blade.php">Doctors</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="department-details.html">Department Details</a></li>

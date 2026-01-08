@@ -4,8 +4,16 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StaffController;
 use App\Http\Controllers\AdminController;
 
-Route::get('/', function () {
+Route::get('/mainpage', function () {
     return view('mainpage');
+});
+
+Route::get('/departments', function () {
+    return view('departments');
+});
+
+Route::get('/doctors', function () {
+    return view('doctors');
 });
 
 // 2. Admin Routes for Poliklinik Alisya (Add these below)
