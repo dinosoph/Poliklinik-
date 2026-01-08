@@ -8,6 +8,7 @@ use App\Models\Staff;
 use Carbon\Carbon;
 use App\Mail\AppointmentConfirmed;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 
 class AppointmentController extends Controller
 {
@@ -51,8 +52,25 @@ class AppointmentController extends Controller
             'time' => $request->time,
         ]);
 
-        // Redirect to the email log page instead of bookings
-        return redirect()->route('bookings.index')->with('success', 'Doctor assigned successfully! Email is logged.');
+        /// 2️⃣ Send confirmation email to patient
+        try {
+            Mail::to($appointment->email)
+                ->send(new AppointmentConfirmed($appointment));
+
+            Log::info('Appointment confirmation email sent', [
+                'appointment_id' => $appointment->id,
+                'email' => $appointment->email
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Email sending failed', [
+                'error' => $e->getMessage()
+            ]);
+        }
+
+        // 3️⃣ Redirect back
+        return redirect()
+            ->route('bookings.index')
+            ->with('success', 'Appointment confirmed and email sent');
     }
 
 
