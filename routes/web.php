@@ -27,6 +27,11 @@ Route::get('/departments', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+Route::get('/service-details', function () {
+    return view('service-details');
+});
+
 Route::get('/doctors', function () {
     return view('doctors');
 });

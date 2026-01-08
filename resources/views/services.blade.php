@@ -60,7 +60,7 @@
                         <li><i class="fa fa-check-circle"></i>Preventive Care Planning</li>
                         <li><i class="fa fa-check-circle"></i>Health Monitoring</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="/service-details" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
