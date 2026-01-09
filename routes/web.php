@@ -17,9 +17,11 @@ Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact
 Route::get('/', function () {
     return view('mainpage');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
+
 Route::get('/departments', function () {
     return view('departments');
 });
@@ -27,9 +29,10 @@ Route::get('/departments', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
 Route::get('/doctors', function () {
     return view('doctors');
-});
+})->name('profile.doctor');
 
 Route::get('/testimonials', function () {
     return view('testimonials');
