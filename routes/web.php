@@ -17,9 +17,11 @@ Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact
 Route::get('/', function () {
     return view('mainpage');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
+
 Route::get('/departments', function () {
     return view('departments');
 });
@@ -34,15 +36,15 @@ Route::get('/services/{service}', function ($service) {
 
 Route::get('/doctors', function () {
     return view('doctors');
-});
+})->name('profile.doctor');
 
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
-    
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
