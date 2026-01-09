@@ -28,9 +28,9 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/service-details', function () {
-    return view('service-details');
-});
+Route::get('/services/{service}', function ($service) {
+    return view('service-details', compact('service'));
+})->name('services.details');
 
 Route::get('/doctors', function () {
     return view('doctors');
@@ -104,7 +104,7 @@ Route::prefix('admin')->group(function () {
     });
 
 });
-
+/*
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -113,7 +113,7 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-});
+});*/
 
 
 

@@ -81,9 +81,9 @@
                         <li><i class="fa fa-check-circle"></i>Travel Vaccines</li>
                         <li><i class="fa fa-check-circle"></i>Flu Shots</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
-                        <span>Learn More</span>
-                        <i class="fa fa-arrow-right"></i>
+                      <a href="{{ route('services.details', 'cardiology') }}" class="service-link">
+                      <span>Learn More</span>
+                      <i class="fa fa-arrow-right"></i>
                       </a>
                     </div>
                   </div>
