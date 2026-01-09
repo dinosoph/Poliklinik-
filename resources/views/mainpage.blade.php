@@ -1,7 +1,6 @@
 @extends('master.clinic_layout')
 @section('content')
-<body class="index-page">
-  
+
   <main class="main">
 
     <!-- Hero Section -->

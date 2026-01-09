@@ -37,10 +37,10 @@ Route::get('/doctors', function () {
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
-    
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
