@@ -167,99 +167,50 @@
               <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=Poliklinik%20Alisya%20Puchong%2C%20Jalan%20TK%205%2F32a%2C%20Taman%20Mawar%2C%20Puchong%2C%20Selangor%2C%20Malaysia&maptype=roadmap" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            
            <div class="form-container">
-  <h3>Send Us a Message</h3>
-  <p>Have a question or need assistance? Use the form below to get in touch with us directly. We will respond promptly to help you with any of your concerns.</p>
+    <h3>Send Us a Message</h3>
+    <p>Have a question or need assistance? Use the form below to get in touch with us directly.</p>
 
-  <!-- Success Message -->
-  <div id="successMessage" class="alert alert-success" style="display: none;"></div>
-
-  <!-- Error Message -->
-  <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
-
-  <!-- Contact Form -->
-  <form id="contactForm" method="post">
-    @csrf  <!-- CSRF token for security -->
-    <div class="form-floating mb-3">
-      <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required="">
-      <label for="nameInput">Full Name</label>
-    </div>
-
-    <div class="form-floating mb-3">
-      <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required="">
-      <label for="emailInput">Email Address</label>
-    </div>
-
-    <div class="form-floating mb-3">
-      <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required="">
-      <label for="subjectInput">Subject</label>
-    </div>
-
-    <div class="form-floating mb-3">
-      <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required=""></textarea>
-      <label for="messageInput">Your Message</label>
-    </div>
-
-    <!-- Loading Message (not used in this approach) -->
-    <div class="loading" style="display: none;">Loading...</div>
-    
-
-    <!-- Submit Button -->
-    <div class="d-grid">
-      <button type="submit" class="btn-submit">Send Message <i class="bi bi-send-fill ms-2"></i></button>
-    </div>
-  </form>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script>
-  // When the form is submitted via AJAX
-  $('#contactForm').on('submit', function(e) {
-    e.preventDefault(); // Prevent the default form submission
-
-    // Show loading message (optional)
-    $('.loading').show();
-
-    // Prepare the form data
-    var formData = $(this).serialize();
-
-    // Send the form data via AJAX
-    $.ajax({
-      url: "{{ route('contact.submit') }}",  // Your form action route
-      type: 'POST',
-      data: formData,
-      success: function(response) {
-        // Hide loading message
-        $('.loading').hide();
-
-        // Show success message
-        if (response.status == 'success') {
-          $('#successMessage').text(response.message).show();
-          
-          // Clear the form
-          $('#contactForm')[0].reset();
-        } else {
-          // Show error message
-          $('#errorMessage').text(response.message).show();
-        }
-      },
-      error: function() {
-        // Hide loading message
-        $('.loading').hide();
-
-        // Show generic error message if the request fails
-        $('#errorMessage').text('An error occurred. Please try again later.').show();
-      }
-    });
-  });
-</script>
-
-          </div>
+    @if(session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
         </div>
-      </div>
-    </section> <!-- /Contact Section -->
+    @endif
+
+    @if(session('error'))
+        <div class="alert alert-danger">
+            {{ session('error') }}
+        </div>
+    @endif
+
+    <form action="{{ route('contact.submit') }}" method="POST">
+        @csrf  <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required>
+            <label for="nameInput">Full Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required>
+            <label for="emailInput">Email Address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required>
+            <label for="subjectInput">Subject</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required></textarea>
+            <label for="messageInput">Your Message</label>
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn-submit">
+                Send Message <i class="bi bi-send-fill ms-2"></i>
+            </button>
+        </div>
+    </form>
+</div>
 
   </main>
 

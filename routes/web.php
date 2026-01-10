@@ -9,17 +9,15 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EmailLogController;
 
-Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
-Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');
-
-
 // 1. Public Routes for Poliklinik Alisya (Existing routes)
 Route::get('/', function () {
     return view('mainpage');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
+
 Route::get('/departments', function () {
     return view('departments');
 });
@@ -27,17 +25,28 @@ Route::get('/departments', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+Route::get('/services-details', function () {
+    return view('service-details');
+})->name('services.details');
+
 Route::get('/doctors', function () {
     return view('doctors');
-});
+})->name('profile.doctor');
 
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
+
+/*Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');*/
+
 Route::get('/contact', function () {
     return view('contact');
 });
-    
+
+Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
@@ -99,16 +108,6 @@ Route::prefix('admin')->group(function () {
     });
 
 });
-
-/*Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});*/
 
 
 
