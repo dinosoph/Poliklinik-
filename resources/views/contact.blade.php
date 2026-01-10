@@ -93,46 +93,59 @@
     <h3>Send Us a Message</h3>
     <p>Have a question or need assistance? Use the form below to get in touch with us directly.</p>
 
-    @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Full Name">
+        <label for="name">Full Name</label>
+    </div>
 
-    @if(session('error'))
-        <div class="alert alert-danger">
-            {{ session('error') }}
-        </div>
-    @endif
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Email Address">
+        <label for="email">Email Address</label>
+    </div>
 
-    <form action="{{ route('contact.submit') }}" method="POST">
-        @csrf  <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required>
-            <label for="nameInput">Full Name</label>
-        </div>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="subject" placeholder="Subject">
+        <label for="subject">Subject</label>
+    </div>
 
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required>
-            <label for="emailInput">Email Address</label>
-        </div>
+    <div class="form-floating mb-3">
+        <textarea class="form-control" id="message" placeholder="Your Message" style="height: 150px"></textarea>
+        <label for="message">Your Message</label>
+    </div>
 
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required>
-            <label for="subjectInput">Subject</label>
-        </div>
-
-        <div class="form-floating mb-3">
-            <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required></textarea>
-            <label for="messageInput">Your Message</label>
-        </div>
-
-        <div class="d-grid">
-            <button type="submit" class="btn-submit">
-                Send Message <i class="bi bi-send-fill ms-2"></i>
-            </button>
-        </div>
-    </form>
+    <div class="d-grid">
+        <button onclick="sendEmail()" class="btn-submit">
+            Send Message <i class="bi bi-send-fill ms-2"></i>
+        </button>
+    </div>
 </div>
+
+<script>
+function sendEmail() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    // Validation check (optional but recommended)
+    if(!name || !email || !subject || !message) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    // Construct the body text
+  const bodyText = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`;
+
+  // Gmail Compose URL format
+  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1` +
+                    `&to=poliklinikalisya@gmail.com` +
+                    `&su=${encodeURIComponent(subject)}` +
+                    `&body=${encodeURIComponent(bodyText)}`;
+
+  // Open Gmail in a new browser tab
+  window.open(gmailLink, '_blank');
+}
+</script>
 
   </main>
 @endsection
