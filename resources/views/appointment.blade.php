@@ -9,7 +9,6 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
             <li class="breadcrumb-item active current">Appointment</li>
           </ol>
         </nav>
@@ -17,7 +16,7 @@
 
       <div class="title-wrapper">
         <h1>Appointment</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p>Schedule your appointment with Poliklinik Alisya easily and securely. Our medical team is ready to provide quality care tailored to your health needs</p>
       </div>
     </div><!-- End Page Title -->
 
@@ -32,7 +31,7 @@
           <div class="col-lg-6">
             <div class="appointment-info">
               <h3>Quick &amp; Easy Online Booking</h3>
-              <p class="mb-4">Book your appointment in just a few simple steps. Our healthcare professionals are ready to provide you with the best medical care tailored to your needs.</p>
+              <p class="mb-4">Book your appointment in just a few simple steps. Our healthcare professionals are committed to providing timely and reliable medical care for every patient.</p>
 
               <div class="info-items">
                 <div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="200">
@@ -41,7 +40,7 @@
                   </div>
                   <div>
                     <h5>Flexible Scheduling</h5>
-                    <p class="mb-0">Choose from available time slots that fit your busy schedule</p>
+                    <p class="mb-0">Choose from available appointment slots that suit your schedule and clinic operating hours.</p>
                   </div>
                 </div><!-- End Info Item -->
 
@@ -51,7 +50,7 @@
                   </div>
                   <div>
                     <h5>Quick Response</h5>
-                    <p class="mb-0">Get confirmation within 15 minutes of submitting your request</p>
+                    <p class="mb-0">Receive appointment confirmation shortly after submitting your booking request.</p>
                   </div>
                 </div><!-- End Info Item -->
 
@@ -60,8 +59,8 @@
                     <i class="bi bi-shield-check"></i>
                   </div>
                   <div>
-                    <h5>Expert Medical Care</h5>
-                    <p class="mb-0">Board-certified doctors and specialists at your service</p>
+                    <h5>Professional Medical Care</h5>
+                    <p class="mb-0">Our experienced medical officers provide trusted and patient-centered healthcare services.</p>
                   </div>
                 </div><!-- End Info Item -->
               </div>
@@ -133,7 +132,7 @@
                   <i class="bi bi-person-fill"></i>
                 </div>
                 <h5>Fill Details</h5>
-                <p>Provide your personal information and select your preferred department</p>
+                <p>Enter your name, contact number, email address, and briefly describe your symptoms or reason for visits.</p>
               </div>
             </div><!-- End Step -->
 
@@ -143,8 +142,8 @@
                 <div class="step-icon">
                   <i class="bi bi-calendar-event"></i>
                 </div>
-                <h5>Choose Date</h5>
-                <p>Select your preferred date and time slot from available options</p>
+                <h5>Select Appointment Date</h5>
+                <p>Choose your preferred appointment date based on the clinic's available schedule.</p>
               </div>
             </div><!-- End Step -->
 
@@ -154,8 +153,8 @@
                 <div class="step-icon">
                   <i class="bi bi-check-circle"></i>
                 </div>
-                <h5>Confirmation</h5>
-                <p>Receive instant confirmation and appointment details via email or SMS</p>
+                <h5>Appointment Confirmation</h5>
+                <p>Receive confirmation of your appointment request via email after review by our clinic staff.</p>
               </div>
             </div><!-- End Step -->
 
@@ -165,8 +164,8 @@
                 <div class="step-icon">
                   <i class="bi bi-heart-pulse"></i>
                 </div>
-                <h5>Get Treatment</h5>
-                <p>Visit our clinic at your scheduled time and receive quality healthcare</p>
+                <h5>Visit the Clinic</h5>
+                <p>Attend you appointment at the scheduled time and receive medical consultation from our healthcare provider.</p>
               </div>
             </div><!-- End Step -->
 

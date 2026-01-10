@@ -145,7 +145,7 @@
                         <li><i class="fa fa-check-circle"></i>Cardiac Surgery</li>
                         <li><i class="fa fa-check-circle"></i>Rehabilitation Programs</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'cardiology']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -166,7 +166,7 @@
                         <li><i class="fa fa-check-circle"></i>Stroke Treatment</li>
                         <li><i class="fa fa-check-circle"></i>Memory Care</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'neurology']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -187,7 +187,7 @@
                         <li><i class="fa fa-check-circle"></i>Sports Medicine</li>
                         <li><i class="fa fa-check-circle"></i>Pain Management</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'orthopedics']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -208,7 +208,7 @@
                         <li><i class="fa fa-check-circle"></i>Chemotherapy</li>
                         <li><i class="fa fa-check-circle"></i>Support Services</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'oncology']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -233,7 +233,7 @@
                         <li><i class="fa fa-check-circle"></i>Pathology Services</li>
                         <li><i class="fa fa-check-circle"></i>Quick Results</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'laboratory']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -254,7 +254,7 @@
                         <li><i class="fa fa-check-circle"></i>CT Imaging</li>
                         <li><i class="fa fa-check-circle"></i>Ultrasound</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'imaging']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -281,11 +281,11 @@
                         <li><i class="fa fa-check-circle"></i>Referral to Nearby Hospitals (if required)</li>
                       </ul>
                       <div class="emergency-actions">
-                        <a href="tel:911" class="btn-emergency">
+                        <a href="tel:999" class="btn-emergency">
                           <i class="fa fa-phone"></i>
                           <span>Call Emergency</span>
                         </a>
-                        <a href="directions.html" class="btn-directions">
+                        <a href="/contact" class="btn-directions">
                           <i class="fa fa-map-marker-alt"></i>
                           <span>Get Directions</span>
                         </a>
