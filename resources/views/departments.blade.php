@@ -1,4 +1,5 @@
 @extends('master.clinic_layout')
+
 @section('content')
 
   <main class="main">
