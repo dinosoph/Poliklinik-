@@ -76,7 +76,7 @@
             "{{ request()->is('mainpage') ? 'active' : '' }}">Home</a></li>
           <li><a href="/about" class=
             "{{ request()->is('about') ? 'active' : '' }}">About</a></li>
-          <li><a href="/department" class=
+          <li><a href="/departments" class=
             "{{ request()->is('department') ? 'active' : '' }}">Department</a></li></li>
           <li><a href="/services" class=
             "{{ request()->is('services') ? 'active' : '' }}">Services</a></li>
