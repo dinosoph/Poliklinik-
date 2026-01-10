@@ -328,8 +328,161 @@
         </div>
       </div>
 
+        <!-- 12 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Sri Alisya Syantini" class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Sri Alisya Syantini </h4>
+            <span class="doctor-specialty"> Neurology </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">11+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 13 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Heng Zhen Xiang" class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Faiz Mukhriz Shah </h4>
+            <span class="doctor-specialty"> Neurology </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">11+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+          <!-- 14 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Amira Sofea Rahmat" class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Amira Sofea Rahmat </h4>
+            <span class="doctor-specialty"> Surgery </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">20+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 15 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Lim Jia Hui " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Lim Jia Hui  </h4>
+            <span class="doctor-specialty"> Surgery </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">10+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- 16 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Yasmin Shafina Othman " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Yasmin Shafina Othman </h4>
+            <span class="doctor-specialty">  Emergency Care </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">14+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- 17 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Muhammad Faris Hakim </h4>
+            <span class="doctor-specialty"> Emergency Care </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">14+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
+    </div>
+  </div> 
 
 </section>
 <!-- /Doctors Section -->
