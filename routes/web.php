@@ -26,6 +26,10 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/services-details', function () {
+    return view('service-details');
+})->name('services.details');
+
 Route::get('/doctors', function () {
     return view('doctors');
 })->name('profile.doctor');
