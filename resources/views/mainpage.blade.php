@@ -347,7 +347,7 @@
                   <li><i class="fas fa-check-circle"></i>24/7 Emergency Care</li>
                   <li><i class="fas fa-check-circle"></i>Preventive Screenings</li>
                 </ul>
-                <a href="/service" class="service-btn">
+                <a href="{{ route('services.details', ['service' => 'cardiology']) }}" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -368,7 +368,7 @@
                   <li><i class="fas fa-check-circle"></i>Stroke Treatment Center</li>
                   <li><i class="fas fa-check-circle"></i>Neurological Rehabilitation</li>
                 </ul>
-                <a href="/service" class="service-btn">
+                <a href="{{ route('services.details', ['service' => 'neurology']) }}" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -389,7 +389,7 @@
                   <li><i class="fas fa-check-circle"></i>Sports Medicine</li>
                   <li><i class="fas fa-check-circle"></i>Minimally Invasive Procedures</li>
                 </ul>
-                <a href="/service" class="service-btn">
+                <a href="{{ route('services.details', ['service' => 'orthopedics']) }}" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
@@ -410,7 +410,7 @@
                   <li><i class="fas fa-check-circle"></i>Level 1 Trauma Center</li>
                   <li><i class="fas fa-check-circle"></i>Critical Care Units</li>
                 </ul>
-                <a href="/service" class="service-btn">
+                <a href="/services" class="service-btn">
                   Learn More
                   <i class="fas fa-arrow-right"></i>
                 </a>
