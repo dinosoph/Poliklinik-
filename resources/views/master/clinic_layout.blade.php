@@ -72,12 +72,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/mainpage" class=
+          <li><a href="/" class=
             "{{ request()->is('mainpage') ? 'active' : '' }}">Home</a></li>
           <li><a href="/about" class=
             "{{ request()->is('about') ? 'active' : '' }}">About</a></li>
           <li><a href="/departments" class=
-            "{{ request()->is('department') ? 'active' : '' }}">Department</a></li></li>
+            "{{ request()->is('departments') ? 'active' : '' }}">Department</a></li></li>
           <li><a href="/services" class=
             "{{ request()->is('services') ? 'active' : '' }}">Services</a></li>
           <li><a href="/doctors" class=
@@ -121,15 +121,15 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/services">Services</a></li>
+            <!--<li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>-->
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!--<div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
             <li><a href="#">Web Design</a></li>
@@ -163,7 +163,7 @@
         </div>
 
       </div>
-    </div>
+    </div>-->
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
