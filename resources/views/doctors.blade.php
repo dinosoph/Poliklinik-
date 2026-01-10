@@ -478,8 +478,80 @@
         </div>
       </div>
 
-    </div>
-  </div>
+      <!-- 18 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Muhammad Faris Hakim </h4>
+            <span class="doctor-specialty"> Emergency Care </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">14+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- 20 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Muhammad Faris Hakim </h4>
+            <span class="doctor-specialty"> Emergency Care </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">14+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- 20 -->
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="doctor-card">
+          <div class="doctor-image">
+            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <div class="doctor-overlay">
+              <div class="doctor-social">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-content">
+            <h4 class="doctor-name">Dr. Muhammad Faris Hakim </h4>
+            <span class="doctor-specialty"> Emergency Care </span>
+            <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
+            <div class="doctor-experience">
+              <span class="experience-badge">14+ Years Experience</span>
+            </div>
+            <a href="appointment.html" class="btn-appointment">Book Appointment</a>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div> 
