@@ -14,7 +14,7 @@ Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact
 
 
 // 1. Public Routes for Poliklinik Alisya (Existing routes)
-Route::get('/', function () {
+Route::get('/mainpage', function () {
     return view('mainpage');
 });
 
@@ -30,8 +30,8 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/services/{service}', function ($service) {
-    return view('service-details', compact('service'));
+Route::get('/services-details', function () {
+    return view('service-details');
 })->name('services.details');
 
 Route::get('/doctors', function () {

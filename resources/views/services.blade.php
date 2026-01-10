@@ -1,7 +1,5 @@
 @extends('master.clinic_layout')
 @section('content')
-<body class="services-page">
-
   <main class="main">
 
     <!-- Page Title -->
@@ -9,8 +7,7 @@
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
+            <li class="breadcrumb-item"><a href="/mainpage"><i class="bi bi-house"></i> Home</a></li>
             <li class="breadcrumb-item active current">Services</li>
           </ol>
         </nav>
@@ -18,7 +15,7 @@
 
       <div class="title-wrapper">
         <h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p>From primary and specialty care to diagnostic and emergency services, we are committed to delivering reliable and patient-centered healthcare.</p>
       </div>
     </div><!-- End Page Title -->
 
@@ -54,13 +51,13 @@
                     </div>
                     <div class="service-details">
                       <h5>General Consultation</h5>
-                      <p>Cupiditate placeat facere. Delectus quisquam et consequatur laborum sunt consectetur.</p>
+                      <p>Personalized medical consultations to assess symptoms, provide accurate diagnoses, and recommend appropriate treatment for your health concerns.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Comprehensive Health Assessment</li>
                         <li><i class="fa fa-check-circle"></i>Preventive Care Planning</li>
                         <li><i class="fa fa-check-circle"></i>Health Monitoring</li>
                       </ul>
-                      <a href="/service-details" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'consultation']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -75,13 +72,13 @@
                     </div>
                     <div class="service-details">
                       <h5>Vaccination Services</h5>
-                      <p>Voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut.</p>
+                      <p>Safe and reliable vaccination services to protect individuals and families against preventable diseases at every stage of life.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Adult Immunizations</li>
                         <li><i class="fa fa-check-circle"></i>Travel Vaccines</li>
                         <li><i class="fa fa-check-circle"></i>Flu Shots</li>
                       </ul>
-                      <a href="{{ route('services.details', 'cardiology') }}" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'vaccination']) }}" class="service-link">
                       <span>Learn More</span>
                       <i class="fa fa-arrow-right"></i>
                       </a>
@@ -96,13 +93,13 @@
                     </div>
                     <div class="service-details">
                       <h5>Maternal Health</h5>
-                      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore.</p>
+                      <p>Comprehensive maternal healthcare supporting women through pregnancy, delivery, and postnatal care in a safe and supportive environment.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Prenatal Care</li>
                         <li><i class="fa fa-check-circle"></i>Delivery Support</li>
                         <li><i class="fa fa-check-circle"></i>Postnatal Care</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'maternal']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -117,13 +114,13 @@
                     </div>
                     <div class="service-details">
                       <h5>Family Medicine</h5>
-                      <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
+                      <p>Continuous and holistic medical care for individuals and families, focusing on long-term health, prevention, and chronic disease management.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>All-Age Care</li>
                         <li><i class="fa fa-check-circle"></i>Chronic Disease Management</li>
                         <li><i class="fa fa-check-circle"></i>Wellness Programs</li>
                       </ul>
-                      <a href="service-details.html" class="service-link">
+                      <a href="{{ route('services.details', ['service' => 'family']) }}" class="service-link">
                         <span>Learn More</span>
                         <i class="fa fa-arrow-right"></i>
                       </a>
@@ -142,7 +139,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Cardiology</h5>
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                      <p>Specialized care for heart and cardiovascular conditions, focusing on accurate diagnosis, effective treatment, and long-term heart health management.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Heart Disease Treatment</li>
                         <li><i class="fa fa-check-circle"></i>Cardiac Surgery</li>
@@ -163,7 +160,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Neurology</h5>
-                      <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur.</p>
+                      <p>Comprehensive evaluation and treatment of neurological conditions affecting the brain, nerves, and nervous system.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Neurological Assessment</li>
                         <li><i class="fa fa-check-circle"></i>Stroke Treatment</li>
@@ -184,7 +181,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Orthopedics</h5>
-                      <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+                      <p>Expert care for bone, joint, and muscle conditions, helping patients restore mobility, reduce pain, and improve quality of life.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Joint Replacement</li>
                         <li><i class="fa fa-check-circle"></i>Sports Medicine</li>
@@ -205,7 +202,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Oncology</h5>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                      <p>Compassionate and coordinated cancer care, offering diagnosis, treatment options, and continuous patient support throughout the journey.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Cancer Treatment</li>
                         <li><i class="fa fa-check-circle"></i>Chemotherapy</li>
@@ -230,7 +227,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Laboratory Testing</h5>
-                      <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam.</p>
+                      <p>Reliable laboratory services to support accurate diagnosis, including blood tests and pathology analysis with timely results.</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>Blood Analysis</li>
                         <li><i class="fa fa-check-circle"></i>Pathology Services</li>
@@ -251,7 +248,7 @@
                     </div>
                     <div class="service-details">
                       <h5>Diagnostic Imaging</h5>
-                      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                      <p>Non-invasive imaging services to assist in medical evaluation and diagnosis using safe and modern technology</p>
                       <ul class="service-benefits">
                         <li><i class="fa fa-check-circle"></i>MRI Scans</li>
                         <li><i class="fa fa-check-circle"></i>CT Imaging</li>
@@ -276,12 +273,12 @@
                     </div>
                     <div class="service-details">
                       <h5>24/7 Emergency Care</h5>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <p>Immediate medical attention for urgent but non-life-threatening conditions, with prompt assessment and appropriate referral when necessary.</p>
                       <ul class="service-benefits">
-                        <li><i class="fa fa-check-circle"></i>Round-the-Clock Availability</li>
-                        <li><i class="fa fa-check-circle"></i>Trauma Center</li>
-                        <li><i class="fa fa-check-circle"></i>Critical Care Unit</li>
-                        <li><i class="fa fa-check-circle"></i>Emergency Surgery</li>
+                        <li><i class="fa fa-check-circle"></i>Prompt Medical Assessment</li>
+                        <li><i class="fa fa-check-circle"></i>First Aid & Stabilization</li>
+                        <li><i class="fa fa-check-circle"></i>Urgent Care for Minor Injuries</li>
+                        <li><i class="fa fa-check-circle"></i>Referral to Nearby Hospitals (if required)</li>
                       </ul>
                       <div class="emergency-actions">
                         <a href="tel:911" class="btn-emergency">
@@ -308,10 +305,10 @@
               <div class="cta-content">
                 <i class="fa fa-calendar-check"></i>
                 <h3>Ready to Schedule Your Appointment?</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.</p>
+                <p>Appointments are available during clinic operating hours. Contact us for more information or urgent inquiries.</p>
                 <div class="cta-buttons">
                   <a href="/appointment" class="btn-book">Book Now</a>
-                  <a href="contact.html" class="btn-contact">Contact Us</a>
+                  <a href="/contact" class="btn-contact">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -323,27 +320,4 @@
     </section><!-- /Services Section -->
 
   </main>
-
-
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
 @endsection
