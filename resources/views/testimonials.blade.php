@@ -8,7 +8,7 @@
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
+                <li class="breadcrumb-item"><a href="/"><i class="bi bi-house"></i> Home</a></li>
             <li class="breadcrumb-item active current">Testimonials</li>
           </ol>
         </nav>

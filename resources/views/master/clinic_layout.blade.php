@@ -72,7 +72,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/mainpage" class=
+          <li><a href="/" class=
             "{{ request()->is('mainpage') ? 'active' : '' }}">Home</a></li>
           <li><a href="/about" class=
             "{{ request()->is('about') ? 'active' : '' }}">About</a></li>
