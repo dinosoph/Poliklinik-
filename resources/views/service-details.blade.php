@@ -1,84 +1,5 @@
 @extends('master.clinic_layout')
 @section('content')
-<body class="service-details-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <svg class="my-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g id="bgCarrier" stroke-width="0"></g>
-          <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-          <g id="iconCarrier">
-            <path d="M22 22L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path d="M17 22V6C17 4.11438 17 3.17157 16.4142 2.58579C15.8284 2 14.8856 2 13 2H11C9.11438 2 8.17157 2 7.58579 2.58579C7 3.17157 7 4.11438 7 6V22" stroke="currentColor" stroke-width="1.5"></path>
-            <path opacity="0.5" d="M21 22V8.5C21 7.09554 21 6.39331 20.6629 5.88886C20.517 5.67048 20.3295 5.48298 20.1111 5.33706C19.6067 5 18.9045 5 17.5 5" stroke="currentColor" stroke-width="1.5"></path>
-            <path opacity="0.5" d="M3 22V8.5C3 7.09554 3 6.39331 3.33706 5.88886C3.48298 5.67048 3.67048 5.48298 3.88886 5.33706C4.39331 5 5.09554 5 6.5 5" stroke="currentColor" stroke-width="1.5"></path>
-            <path d="M12 22V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M10 12H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M5.5 11H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M5.5 14H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M17 11H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M17 14H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M5.5 8H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M17 8H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path opacity="0.5" d="M10 15H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-            <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </g>
-        </svg>
-
-        <h1 class="sitename">MediTrust</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="departments.html">Departments</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="doctors.html">Doctors</a></li>
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="department-details.html">Department Details</a></li>
-              <li><a href="service-details.html" class="active">Service Details</a></li>
-              <li><a href="appointment.html">Appointment</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="faq.html">Frequently Asked Questions</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="appointment.html">Appointment</a>
-
-    </div>
-  </header>
 
   <main class="main">
 
@@ -87,8 +8,8 @@
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
+            <li class="breadcrumb-item"><a href="/mainpage"><i class="bi bi-house"></i> Home</a></li>
+            <li class="breadcrumb-item"><a href="/services">Services</a></li>
             <li class="breadcrumb-item active current">Service Details</li>
           </ol>
         </nav>
@@ -96,7 +17,7 @@
 
       <div class="title-wrapper">
         <h1>Service Details</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p>Discover the services we offer, each thoughtfully crafted to provide you with reliable care and a comfortable healthcare experience.</p>
       </div>
     </div><!-- End Page Title -->
 
@@ -105,7 +26,148 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
+        <section id="consultation" class="service-section">
         <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/consultation-3.webp" alt="Cardiology Services" class="img-fluid">
+              <div class="service-tag">
+                <span>Primary Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2>General Consultation</h2>
+              <p class="service-tagline">Personalized medical consultations for everyday health concerns</p>
+
+              <p>Our general consultation services provide comprehensive medical assessment for common illnesses, ongoing health conditions, and preventive care. Our doctors take time to understand your symptoms and medical history to ensure accurate diagnosis and appropriate treatment.</p>
+
+              <p>We focus on patient-centered care, offering clear explanations, professional advice, and continuous health monitoring to support your overall well-being.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Comprehensive health assessments</li>
+                  <li><i class="bi bi-check-circle"></i> Preventive care planning</li>
+                  <li><i class="bi bi-check-circle"></i> Diagnosis and treatment of common illnesses</li>
+                  <li><i class="bi bi-check-circle"></i> Health monitoring and follow-up care</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="vaccination" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/vaccination.png" alt="Vaccination Services" class="img-fluid">
+              <div class="service-tag">
+                <span>Primary Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2>Vaccination Services</h2>
+              <p class="service-tagline">Safe and effective immunization for all age groups</p>
+
+              <p>Our vaccination services help protect individuals and families from preventable diseases through safe and reliable immunization programs. Vaccines are administered according to recommended medical guidelines in a clean and controlled clinical environment.</p>
+
+              <p>Our healthcare professionals ensure proper consultation before vaccination and provide post-vaccination guidance for your safety and peace of mind.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Adult immunizations</li>
+                  <li><i class="bi bi-check-circle"></i> Travel-related vaccinations</li>
+                  <li><i class="bi bi-check-circle"></i> Routine vaccinations</li>
+                  <li><i class="bi bi-check-circle"></i> Flu and seasonal vaccines</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="maternal" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/maternal health.png" alt="Maternal Health" class="img-fluid">
+              <div class="service-tag">
+                <span>Primary Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Maternal Health</h2>
+              <p class="service-tagline">Dedicated care for mothers before and after childbirth</p>
+
+              <p>Our maternal health services are designed to support women throughout pregnancy and the postnatal period. We provide professional medical care, guidance, and monitoring to ensure the health and well-being of both mother and baby.</p>
+              <p>Our clinic offers a supportive and comfortable environment, focusing on safety, education, and personalized care.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Prenatal medical care</li>
+                  <li><i class="bi bi-check-circle"></i> Pregnancy health monitoring</li>
+                  <li><i class="bi bi-check-circle"></i> Postnatal care and follow-up</li>
+                  <li><i class="bi bi-check-circle"></i> Maternal health education</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="family" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/family.png" alt="family medicine" class="img-fluid">
+              <div class="service-tag">
+                <span>Primary Care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Family Medicine</h2>
+              <p class="service-tagline">Comprehensive healthcare for every stage of life</p>
+
+              <p>Family medicine services provide continuous and holistic medical care for individuals and families of all ages. Our doctors focus on long-term health management, prevention, and treatment of both acute and chronic conditions.</p>
+              <p>We aim to build long-term doctor-patient relationships to support overall family health.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Medical care for all age groups</li>
+                  <li><i class="bi bi-check-circle"></i> Chronic disease management</li>
+                  <li><i class="bi bi-check-circle"></i> Wellness and preventive programs</li>
+                  <li><i class="bi bi-check-circle"></i> Long-term health monitoring</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+
+
+            <section id="cardiology" class="service-section">
+              <div class="row gy-5">
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-image">
@@ -118,123 +180,200 @@
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="service-content">
-              <h2>Comprehensive Cardiology Services</h2>
-              <p class="service-tagline">Advanced heart care with cutting-edge technology and compassionate expertise</p>
+              <h2> Cardiology</h2>
+              <p class="service-tagline">Focused care for heart and cardiovascular health</p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Our cardiology services focus on the assessment and management of heart-related conditions through clinical evaluation and preventive screening. Patients receive professional consultation to identify cardiovascular risks and maintain long-term heart health.</p>
+              <p>Advanced hospital-based procedures are referred to specialist centers when necessary.</p>
 
               <div class="service-features">
                 <h4>Our Services Include:</h4>
                 <ul>
-                  <li><i class="bi bi-check-circle"></i> Comprehensive cardiac examinations</li>
-                  <li><i class="bi bi-check-circle"></i> Advanced diagnostic imaging</li>
-                  <li><i class="bi bi-check-circle"></i> Preventive heart screening programs</li>
-                  <li><i class="bi bi-check-circle"></i> Cardiac rehabilitation therapy</li>
-                  <li><i class="bi bi-check-circle"></i> Emergency cardiac intervention</li>
-                  <li><i class="bi bi-check-circle"></i> Post-operative care and monitoring</li>
+                  <li><i class="bi bi-check-circle"></i> Cardiovascular risk assessment</li>
+                  <li><i class="bi bi-check-circle"></i> Heart health screening</li>
+                  <li><i class="bi bi-check-circle"></i> Ongoing heart condition monitoring</li>
+                  <li><i class="bi bi-check-circle"></i> Referral to specialist care if required</li>
                 </ul>
               </div>
-
               <div class="service-actions">
-                <a href="#" class="btn-primary">Schedule Consultation</a>
-                <a href="#" class="btn-secondary">Learn More</a>
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="neurology" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/neurology-4.webp" alt="Neurology" class="img-fluid">
+              <div class="service-tag">
+                <span>Specialized Care</span>
               </div>
             </div>
           </div>
 
-        </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Neurology</h2>
+              <p class="service-tagline">Assessment and care for neurological conditions</p>
 
-        <div class="row mt-5">
+              <p>Our neurology services provide clinical evaluation and management of conditions affecting the brain and nervous system. We focus on early detection, symptom management, and appropriate referral for specialized treatment when needed.</p>
+              <p>Patient safety and clear communication are central to our care approach.</p>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-card">
-              <div class="card-icon">
-                <i class="bi bi-heart-pulse"></i>
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Neurological assessments</li>
+                  <li><i class="bi bi-check-circle"></i> Management of common neurological symptoms</li>
+                  <li><i class="bi bi-check-circle"></i> Stroke risk evaluation</li>
+                  <li><i class="bi bi-check-circle"></i> Referral to neurology specialists</li>
+                </ul>
               </div>
-              <h4>Diagnostic Testing</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-              <a href="#" class="card-link">
-                <span>Book Now</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card">
-              <div class="card-icon">
-                <i class="bi bi-hospital"></i>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
               </div>
-              <h4>Surgical Procedures</h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
-              <a href="#" class="card-link">
-                <span>Schedule Surgery</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+            </section>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card">
-              <div class="card-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <h4>Preventive Care</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a href="#" class="card-link">
-                <span>Get Screened</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+            <section id="orthopedics" class="service-section">
+              <div class="row gy-5">
 
-        </div>
-
-        <div class="row mt-5">
-
-          <div class="col-lg-8" data-aos="fade-right" data-aos-delay="100">
-            <div class="booking-section">
-              <h3>Ready to Schedule Your Appointment?</h3>
-              <p>Our cardiology specialists are available for consultations Monday through Friday. Same-day appointments available for urgent cases.</p>
-
-              <div class="availability-info">
-                <div class="info-item">
-                  <i class="bi bi-clock"></i>
-                  <div>
-                    <strong>Office Hours</strong>
-                    <span>Mon-Fri: 8:00 AM - 6:00 PM</span>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <i class="bi bi-telephone"></i>
-                  <div>
-                    <strong>Emergency Line</strong>
-                    <span>+1 (555) 123-4567</span>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <i class="bi bi-geo-alt"></i>
-                  <div>
-                    <strong>Location</strong>
-                    <span>123 Medical Center Dr, Boston, MA 02101</span>
-                  </div>
-                </div>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics" class="img-fluid">
+              <div class="service-tag">
+                <span>Specialized Care</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
-            <div class="appointment-card">
-              <h4>Book Your Visit</h4>
-              <p>Quick and easy online scheduling</p>
-              <a href="appointment.html" class="btn-appointment">Book Appointment</a>
-              <div class="contact-alternative">
-                <span>Or call us at</span>
-                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Orthopedics</h2>
+              <p class="service-tagline">Care for bone, joint, and muscle conditions</p>
+
+              <p>Our orthopedic services focus on diagnosing and managing musculoskeletal conditions that affect mobility and quality of life. Treatment plans aim to reduce pain, improve movement, and prevent further injury.</p>
+              <p>Patients requiring surgical intervention are referred to partner hospitals.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Joint and muscle assessments</li>
+                  <li><i class="bi bi-check-circle"></i> Sports-related injury care</li>
+                  <li><i class="bi bi-check-circle"></i> Pain management</li>
+                  <li><i class="bi bi-check-circle"></i> Rehabilitation and referral services</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="oncology" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/oncology-4.webp" alt="Oncology" class="img-fluid">
+              <div class="service-tag">
+                <span>Specialized Care</span>
               </div>
             </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Oncology</h2>
+              <p class="service-tagline">Supportive care for patients with cancer-related conditions</p>
+
+              <p>Our oncology-related services focus on early assessment, medical support, and coordination of care for patients with cancer concerns. We assist in monitoring, consultation, and referral to specialized oncology centers for advanced treatment.</p>
+              <p>We prioritize compassionate care and patient guidance throughout the process.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Initial cancer assessments</li>
+                  <li><i class="bi bi-check-circle"></i> Medical support and monitoring</li>
+                  <li><i class="bi bi-check-circle"></i> Treatment coordination and referrals</li>
+                  <li><i class="bi bi-check-circle"></i> Ongoing patient support</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+
+            <section id="laboratory" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/laboratorytesting.png" alt="Laboratory Testing" class="img-fluid">
+              <div class="service-tag">
+                <span>Diagnostics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Laboratory Testing</h2>
+              <p class="service-tagline">Accurate laboratory tests for reliable diagnosis</p>
+
+              <p>Our laboratory testing services support medical diagnosis through accurate and timely testing.</p>
+              <p>Samples are handled professionally to ensure reliable results that assist doctors in making informed treatment decisions.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Blood analysis</li>
+                  <li><i class="bi bi-check-circle"></i> Basic pathology services</li>
+                  <li><i class="bi bi-check-circle"></i> Health screening tests</li>
+                  <li><i class="bi bi-check-circle"></i> Timely test results</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+            <section id="imaging" class="service-section">
+              <div class="row gy-5">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-image">
+              <img src="assets/img/health/imaging.png" alt="Diagnostic Imaging" class="img-fluid">
+              <div class="service-tag">
+                <span>Diagnostics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-content">
+              <h2> Diagnostic Imaging</h2>
+              <p class="service-tagline">Essential imaging services for medical evaluation</p>
+
+              <p>Our diagnostic imaging services assist doctors in evaluating medical conditions using safe and non-invasive imaging techniques.</p>
+              <p>Imaging services may be provided on-site or through trusted partner facilities.</p>
+
+              <div class="service-features">
+                <h4>Our Services Include:</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Ultrasound services</li>
+                  <li><i class="bi bi-check-circle"></i> X-ray imaging</li>
+                  <li><i class="bi bi-check-circle"></i> ECG and basic diagnostic tests</li>
+                  <li><i class="bi bi-check-circle"></i> Imaging referrals when required</li>
+                </ul>
+              </div>
+              <div class="service-actions">
+                <a href="/appointment" class="btn-primary">Schedule Consultation</a>
+              </div>
+            </section>
+
+             
+            </div>
+            
           </div>
 
         </div>
@@ -245,25 +384,20 @@
 
   </main>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const service = "{{ request('service') }}";
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        document.querySelectorAll('.service-section').forEach(section => {
+            section.style.display = 'none';
+        });
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
+        if (service) {
+            const activeSection = document.getElementById(service);
+            if (activeSection) {
+                activeSection.style.display = 'block';
+            }
+        }
+    });
+</script>
 @endsection
