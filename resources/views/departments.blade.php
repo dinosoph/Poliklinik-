@@ -57,7 +57,7 @@
             <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
               <div class="department-header">
                 <div class="department-icon">
-                  <i class="bi bi-shield-plus"></i>
+                  <i class="fa fa-user-nurse"></i>
                 </div>
                 <h3>Oncology</h3>
                 <p class="department-subtitle"> Cancer Treatment </p>
@@ -79,6 +79,7 @@
           <!-- End First Column -->
 
           <!-- Second Column with 2 departments -->
+           <!-- 3. Neurology -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="department-card">
               <div class="department-header">
@@ -112,6 +113,7 @@
               </div>
             </div>
 
+            <!-- 4. Dermatology -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
               <div class="department-header">
                 <div class="department-icon">
@@ -124,7 +126,7 @@
                 <img src="assets/img/health/dermatology-3.webp" alt="Dermatology" class="img-fluid" loading="lazy">
               </div>
               <div class="department-content">
-               <p>Comprehensive skin care services including diagnosis, treatment, and cosmetic procedures for healthy and radiant skin.</p>
+              <p>Comprehensive skin care services including accurate diagnosis, effective treatment, and advanced cosmetic procedures to maintain healthy, clear, and radiant skin for patients of all ages.</p>
                 <!--<ul class="department-highlights">
                   <li><i class="bi bi-check2"></i> Cosmetic Dermatology</li>
                   <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
@@ -136,6 +138,7 @@
           </div><!-- End Second Column -->
 
           <!-- Third Column with 2 departments -->
+           <!-- 5. Orthopedics -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="department-card">
               <div class="department-header">
@@ -159,6 +162,7 @@
               </div>
             </div>
 
+            <!-- 6. Pediatrics -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="400">
               <div class="department-header">
                 <div class="department-icon">
