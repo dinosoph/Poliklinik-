@@ -32,7 +32,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Afiq Rahman" class="img-fluid">
+            <img src="assets/img/doctors/DrAfiq.png" alt="Dr. Afiq Rahman" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -54,7 +54,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Heng Zhen Xiang" class="img-fluid">
+            <img src="assets/img/doctors/DrHeng.png" alt="Dr. Heng Zhen Xiang" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -76,7 +76,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Sri Alisya Syantini" class="img-fluid">
+            <img src="assets/img/doctors/DrAlisya.png" alt="Dr. Sri Alisya Syantini" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -98,7 +98,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Faiz Mukhriz Shah" class="img-fluid">
+            <img src="assets/img/doctors/DrFaiz.png" alt="Dr. Faiz Mukhriz Shah" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -120,7 +120,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Daniel Tan Wei Jian" class="img-fluid">
+            <img src="assets/img/doctors/DrDaniel.png" alt="Dr. Daniel Tan Wei Jian" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -142,7 +142,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Kelvin Chong Jun Hao" class="img-fluid">
+            <img src="assets/img/doctors/DrKelvin.png" alt="Dr. Kelvin Chong Jun Hao" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -164,7 +164,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Kavitha Subramania" class="img-fluid">
+            <img src="assets/img/doctors/DrKavitha.png" alt="Dr. Kavitha Subramania" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -186,7 +186,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Noor Izzati Hassan" class="img-fluid">
+            <img src="assets/img/doctors/DrNoor.png" alt="Dr. Noor Izzati Hassan" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -208,7 +208,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Siti Mariam Abdullah" class="img-fluid">
+            <img src="assets/img/doctors/DrMariam.png" alt="Dr. Siti Mariam Abdullah" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -252,7 +252,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Ali" class="img-fluid">
+            <img src="assets/img/doctors/DrAli.png" alt="Dr. Muhammad Ali" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -274,7 +274,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Sharifah Hani Syed Jamal" class="img-fluid">
+            <img src="assets/img/doctors/DrSharifah.png" alt="Dr. Sharifah Hani Syed Jamal" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -318,7 +318,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Amira Sofea Rahmat" class="img-fluid">
+            <img src="assets/img/doctors/DrAmira.png" alt="Dr. Amira Sofea Rahmat" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -340,7 +340,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Lim Jia Hui " class="img-fluid">
+            <img src="assets/img/doctors/DrLim.png" alt="Dr. Lim Jia Hui " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -362,7 +362,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Yasmin Shafina Othman " class="img-fluid">
+            <img src="assets/img/doctors/DrYasmin.png" alt="Dr. Yasmin Shafina Othman " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
