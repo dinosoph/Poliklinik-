@@ -196,7 +196,7 @@ h5.text-muted {
                     <span class="badge {{ $member->role == 'Doctor' ? 'bg-info' : 'bg-primary' }} mb-3">
                         {{ $member->role == 'Doctor' ? 'Dr' : 'Assistant' }}
                     </span>
-                    <div class="mx-auto mb-3" style="width: 80px; height: 80px; border: 2px solid #ddd; border-radius: 50%;"></div>
+                    <!--<div class="mx-auto mb-3" style="width: 80px; height: 80px; border: 2px solid #ddd; border-radius: 50%;"></div>-->
                     <h5 class="card-title fw-bold">{{ $member->name }}</h5>
                     <p class="text-uppercase small fw-bold" style="color: #499FB6;">{{ $member->department }}</p>
                 </div>
