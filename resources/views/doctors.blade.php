@@ -9,8 +9,7 @@
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
+            <li class="breadcrumb-item"><a href="/"><i class="bi bi-house"></i> Home</a></li>
             <li class="breadcrumb-item active current">Doctors</li>
           </ol>
         </nav>
@@ -45,7 +44,7 @@
             <h4 class="doctor-name">Dr. Afiq Rahman</h4>
             <span class="doctor-specialty">Cardiology</span>
             <!-- <p class="doctor-bio">Mauris blandit aliquet elit eget tincidunt nibh pulvinar a.</p> -->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -67,7 +66,7 @@
             <h4 class="doctor-name">Dr. Heng Zhen Xiang</h4>
             <span class="doctor-specialty">Cardiology</span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+           
           </div>
         </div>
       </div>
@@ -89,7 +88,7 @@
             <h4 class="doctor-name">Dr. Sri Alisya Syantini</h4>
             <span class="doctor-specialty">Neurology</span>
             <!--<p class="doctor-bio">Donec rutrum congue leo eget malesuada.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -111,7 +110,7 @@
             <h4 class="doctor-name">Dr. Faiz Mukhriz Shah</h4>
             <span class="doctor-specialty">Neurology</span>
             <!--<p class="doctor-bio">Proin eget tortor risus.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -133,7 +132,7 @@
             <h4 class="doctor-name">Dr. Daniel Tan Wei Jian</h4>
             <span class="doctor-specialty">Orthopedics</span>
             <!--<p class="doctor-bio">Vivamus magna justo lacinia eget consectetur.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -155,7 +154,7 @@
             <h4 class="doctor-name">Dr. Kelvin Chong Jun Hao</h4>
             <span class="doctor-specialty">Orthopedics</span>
             <!--<p class="doctor-bio">Cras ultricies ligula sed magna dictum porta.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -177,7 +176,7 @@
             <h4 class="doctor-name">Dr. Kavitha Subramaniam</h4>
             <span class="doctor-specialty">Pediatrics</span>
             <!--<p class="doctor-bio">Nulla porttitor accumsan tincidunt.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -199,7 +198,7 @@
             <h4 class="doctor-name">Dr. Noor Izzati Hassan</h4>
             <span class="doctor-specialty"> Pediatrics </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -221,7 +220,7 @@
             <h4 class="doctor-name">Dr. Siti Mariam Abdullah</h4>
             <span class="doctor-specialty">Dermatology</span>
             <!--<p class="doctor-bio">Sed porttitor lectus nibh.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -230,7 +229,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Roshini Devi Krishnan class="img-fluid">
+            <img src="assets/img/doctors/DrRoshini.png" alt="Dr. Roshini Devi Krishnan class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -243,7 +242,7 @@
             <h4 class="doctor-name">Dr. Roshini Devi Krishnan</h4>
             <span class="doctor-specialty"> Dermatology </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -265,7 +264,7 @@
             <h4 class="doctor-name">Dr. Muhammad Ali </h4>
             <span class="doctor-specialty"> Oncology </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -287,7 +286,7 @@
             <h4 class="doctor-name">Dr. Sharifah Hani Syed Jamal </h4>
             <span class="doctor-specialty"> Oncology </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -296,7 +295,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Iqbal Razak" class="img-fluid">
+            <img src="assets/img/doctors/DrIqbal.png" alt="Dr. Iqbal Razak" class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -309,7 +308,7 @@
             <h4 class="doctor-name">Dr. Iqbal Razak </h4>
             <span class="doctor-specialty"> Surgery </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -331,7 +330,7 @@
             <h4 class="doctor-name">Dr. Amira Sofea Rahmat </h4>
             <span class="doctor-specialty"> Surgery </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -353,7 +352,7 @@
             <h4 class="doctor-name">Dr. Lim Jia Hui  </h4>
             <span class="doctor-specialty"> Surgery </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -375,7 +374,7 @@
             <h4 class="doctor-name">Dr. Yasmin Shafina Othman </h4>
             <span class="doctor-specialty">  Emergency Care </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -384,7 +383,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <img src="assets/img/doctors/DrFaris.png" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -397,7 +396,7 @@
             <h4 class="doctor-name">Dr. Muhammad Faris Hakim </h4>
             <span class="doctor-specialty"> Emergency Care </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -406,7 +405,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Chloe Tan Li Xuan " class="img-fluid">
+            <img src="assets/img/doctors/DrChloe.png" alt="Chloe Tan Li Xuan " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -419,7 +418,7 @@
             <h4 class="doctor-name">Chloe Tan Li Xuan  </h4>
             <span class="doctor-specialty"> Pharmacy </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -428,7 +427,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Syed Ammar Hafiz " class="img-fluid">
+            <img src="assets/img/doctors/DrSyed.png" alt="Syed Ammar Hafiz " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -441,7 +440,7 @@
             <h4 class="doctor-name">Syed Ammar Hafiz </h4>
             <span class="doctor-specialty"> Pharmacy </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
@@ -450,7 +449,7 @@
       <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="doctor-card">
           <div class="doctor-image">
-            <img src="assets/img/doctor_base_image.jpg" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
+            <img src="assets/img/doctors/DrPriya.png" alt="Dr. Muhammad Faris Hakim " class="img-fluid">
             <div class="doctor-overlay">
               <div class="doctor-social">
                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -463,7 +462,7 @@
             <h4 class="doctor-name">Priya Lakshimi Nadarajan </h4>
             <span class="doctor-specialty">Pharmacy </span>
             <!--<p class="doctor-bio">Vestibulum ac diam sit amet quam vehicula elementum.</p>-->
-            <a href="/appointment" class="btn-appointment">Book Appointment</a>
+            
           </div>
         </div>
       </div>
