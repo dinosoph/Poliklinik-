@@ -1,5 +1,4 @@
 @extends('master.clinic_layout')
-
 @section('content')
 
   <main class="main">
@@ -29,6 +28,7 @@
         <div class="row gy-4">
 
           <!-- First Column with 2 departments -->
+          <!-- 1. Cardiology -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="department-card">
               <div class="department-header">
@@ -40,12 +40,6 @@
               </div>
               <div class="department-image-wrapper">
                 <img src="assets/img/health/cardiology-2.webp" alt="Cardiology" class="img-fluid" loading="lazy">
-                <div class="department-stats">
-                  <div class="stat-item">
-                    <span class="stat-number">500+</span>
-                    <span class="stat-label">Procedures</span>
-                  </div>
-                </div>
               </div>
               <div class="department-content">
                 <p>Comprehensive cardiovascular care with advanced diagnostics techniques and treatment options for heart conditions, ensuring optimal cardiac health for all patients.</p>
@@ -54,26 +48,21 @@
                   <li><i class="bi bi-check2"></i> Interventional Cardiology</li>
                   <li><i class="bi bi-check2"></i> Heart Rhythm Management</li>
                 </ul> -->
-                <a href="department-details.html" class="department-link">Learn More</a>
+                <a href="{{ route('departments.details') }}#cardiology">Learn More</a>
               </div>
             </div>
 
+            <!-- 2. Oncology -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
               <div class="department-header">
                 <div class="department-icon">
-                  <i class="bi bi-shield-plus"></i>
+                  <i class="fa fa-user-nurse"></i>
                 </div>
                 <h3>Oncology</h3>
                 <p class="department-subtitle"> Cancer Treatment </p>
               </div>
               <div class="department-image-wrapper">
-                <img src="assets/img/health/dermatology-3.webp" alt="Dermatology" class="img-fluid" loading="lazy">
-                <div class="department-stats">
-                  <div class="stat-item">
-                    <span class="stat-number">1200+</span>
-                    <span class="stat-label">Treatments</span>
-                  </div>
-                </div>
+                <img src="assets/img/health/oncology-3.webp" alt="Oncology" class="img-fluid" loading="lazy">
               </div>
               <div class="department-content">
                 <p>Comprehensive cancer care with multidisciplinary approach, offering advanced treatment options, clinical trials, and compassionate support throughout the cancer journey.</p>
@@ -82,29 +71,26 @@
                   <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
                   <li><i class="bi bi-check2"></i> Laser Therapy</li>
                 </ul> -->
-                <a href="department-details.html" class="department-link">Learn More</a>
+               <a href="{{ route('departments.details') }}#oncology">Learn More</a>
               </div>
             </div>
-          </div><!-- End First Column -->
+          </div>
+          <!-- End First Column -->
 
-          <!-- Second Column - Featured Department -->
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
-            <div class="featured-department">
-              <div class="featured-header">
-                <div class="featured-badge">
-                  <i class="bi bi-star-fill"></i>
-                  <span>Featured</span>
-                </div>
-                <div class="featured-icon">
+          <!-- Second Column with 2 departments -->
+           <!-- 3. Neurology -->
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="department-card">
+              <div class="department-header">
+                <div class="department-icon">
                   <i class="bi bi-lightning-fill"></i>
                 </div>
-                <h2>Neurology</h2>
+                <h3>Neurology</h3>
                 <p class="featured-subtitle">Brain &amp; Nervous System</p>
               </div>
-              <div class="featured-image">
+              <div class="department-image-wrapper">
                 <img src="assets/img/health/neurology-4.webp" alt="Neurology Department" class="img-fluid" loading="lazy">
-                <div class="featured-overlay">
-                  <div class="achievement-list">
+                <div class="achievement-list">
                     <div class="achievement-item">
                       <i class="bi bi-award"></i>
                       <span>Award Winning Team</span>
@@ -114,25 +100,44 @@
                       <span>24/7 Stroke Center</span>
                     </div>
                   </div>
-                </div>
               </div>
-              <div class="featured-content">
+              <div class="department-content">
                 <p>Expert neurological care specializing in brain and nervous system disorders, providing cutting-edge treatments and compassionate support for neurological conditions.</p>
-                <div class="featured-services">
-                  <div class="service-tag">Brain Imaging</div>
-                  <div class="service-tag">Epilepsy Care</div>
-                  <div class="service-tag">Stroke Treatment</div>
-                  <div class="service-tag">Memory Disorders</div>
-                </div>
-                <a href="department-details.html" class="featured-btn">
-                  Explore Department
-                  <i class="bi bi-arrow-right-circle"></i>
-                </a>
+              <!--  <ul class="department-highlights">
+                  <li><i class="bi bi-check2"></i> Advanced Cardiac Surgery</li>
+                  <li><i class="bi bi-check2"></i> Interventional Cardiology</li>
+                  <li><i class="bi bi-check2"></i> Heart Rhythm Management</li>
+                </ul> -->
+                <a href="{{ route('departments.details') }}#neurology">Learn More</a>
               </div>
             </div>
-          </div><!-- End Featured Department -->
+
+            <!-- 4. Dermatology -->
+            <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
+              <div class="department-header">
+                <div class="department-icon">
+                  <i class="bi bi-shield-plus"></i>
+                </div>
+                <h3>Dermatology</h3>
+                 <p class="department-subtitle">Skin &amp; Cosmetic Care</p>
+              </div>
+              <div class="department-image-wrapper">
+                <img src="assets/img/health/dermatology-3.webp" alt="Dermatology" class="img-fluid" loading="lazy">
+              </div>
+              <div class="department-content">
+              <p>Comprehensive skin care services including accurate diagnosis, effective treatment, and advanced cosmetic procedures to maintain healthy, clear, and radiant skin for patients of all ages.</p>
+                <!--<ul class="department-highlights">
+                  <li><i class="bi bi-check2"></i> Cosmetic Dermatology</li>
+                  <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
+                  <li><i class="bi bi-check2"></i> Laser Therapy</li>
+                </ul> -->
+               <a href="{{ route('departments.details') }}#dermatology">Learn More</a>
+              </div>
+            </div>
+          </div><!-- End Second Column -->
 
           <!-- Third Column with 2 departments -->
+           <!-- 5. Orthopedics -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="department-card">
               <div class="department-header">
@@ -144,12 +149,6 @@
               </div>
               <div class="department-image-wrapper">
                 <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics" class="img-fluid" loading="lazy">
-                <div class="department-stats">
-                  <div class="stat-item">
-                    <span class="stat-number">800+</span>
-                    <span class="stat-label">Surgeries</span>
-                  </div>
-                </div>
               </div>
               <div class="department-content">
                 <p>Advanced musculoskeletal care focusing on bone, joints, and muscles with innovative surgical and non-surgical treatment approaches for mobility restoration.</p>
@@ -158,10 +157,11 @@
                   <li><i class="bi bi-check2"></i> Sports Medicine</li>
                   <li><i class="bi bi-check2"></i> Spine Surgery</li>
                 </ul> -->
-                <a href="department-details.html" class="department-link">Learn More</a>
+                <a href="{{ route('departments.details') }}#orthopedics">Learn More</a>
               </div>
             </div>
 
+            <!-- 6. Pediatrics -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="400">
               <div class="department-header">
                 <div class="department-icon">
@@ -172,12 +172,6 @@
               </div>
               <div class="department-image-wrapper">
                 <img src="assets/img/health/pediatrics-2.webp" alt="Pediatrics" class="img-fluid" loading="lazy">
-                <div class="department-stats">
-                  <div class="stat-item">
-                    <span class="stat-number">2000+</span>
-                    <span class="stat-label">Young Patients</span>
-                  </div>
-                </div>
               </div>
               <div class="department-content">
                 <p>Specialized healthcare for children from infancy through adolescence, offering comprehensive medical care in a child-friendly environment with experienced pediatric specialists.</p>
@@ -186,7 +180,7 @@
                   <li><i class="bi bi-check2"></i> Child Development</li>
                   <li><i class="bi bi-check2"></i> Vaccination Programs</li>
                 </ul>-->
-                <a href="department-details.html" class="department-link">Learn More</a>
+                <a href="{{ route('departments.details') }}#pediatrics">Learn More</a>
               </div>
             </div>
           </div><!-- End Third Column -->

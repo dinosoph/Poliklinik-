@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EmailLogController;
 
+
 // 1. Public Routes for Poliklinik Alisya (Existing routes)
 Route::get('/', function () {
     return view('mainpage');
@@ -21,6 +22,11 @@ Route::get('/about', function () {
 Route::get('/departments', function () {
     return view('departments');
 });
+
+Route::get('/departments-details', function () {
+    return view('department-details');
+})->name('departments.details');
+
 
 Route::get('/services', function () {
     return view('services');
