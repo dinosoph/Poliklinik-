@@ -58,10 +58,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/cardiology-1.webp" alt="Cardiology Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -90,35 +86,6 @@ html {
                     <p>Each patient receives an individualized plan, combining medical therapy, interventions, and lifestyle guidance for optimal heart health.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
               </div>
             </div>
           </div>
@@ -177,10 +144,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/oncology-5.jpg" alt="Oncology Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -209,35 +172,6 @@ html {
                     <p>Each patient receives a customized therapy plan, combining medical treatments, supportive care, and counseling for optimal outcomes.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
               </div>
             </div>
           </div>
@@ -296,10 +230,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/neurology-5.jpg" alt="Neurology Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -328,35 +258,6 @@ html {
                     <p>Tailored care plans for neurological disorders, including therapy and rehabilitation programs.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
               </div>
             </div>
           </div>
@@ -415,10 +316,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/dermatology-5.jpg" alt="Dermatology Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -452,35 +349,6 @@ html {
           </div>
         </div>
 
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="key-services mt-5" data-aos="fade-up" data-aos-delay="500">
           <div class="row gy-4">
             <div class="col-lg-5" data-aos="fade-right" data-aos-delay="600">
@@ -491,7 +359,7 @@ html {
                 <li><i class="bi bi-check-circle-fill"></i> Cosmetic dermatology procedures</li>
                 <li><i class="bi bi-check-circle-fill"></i> Skin cancer screenings and care</li>
                 <li><i class="bi bi-check-circle-fill"></i> Hair and nail disorder management</li>
-                <li><i class="bi bi-check-circle-fill"></i> Preventive skin health consultations</li> Cardiac rehabilitation programs</li>
+                <li><i class="bi bi-check-circle-fill"></i> Preventive skin health consultations</li>
               </ul>
             </div>
             <div class="col-lg-7" data-aos="fade-left" data-aos-delay="600">
@@ -516,6 +384,178 @@ html {
 
     </section><!-- Dermatology Department Details Section -->
 
+    <!-- Pharmacy Department Details Section -->
+   <section id="pharmacy" class="department-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-8 mx-auto text-center intro" data-aos="fade-up" data-aos-delay="200">
+            <h2>Pharmacy Department</h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead">Our Pharmacy Department provides safe, accurate, and reliable medication services, supporting patients with professional pharmaceutical care and guidance.</p>
+          </div>
+        </div>
+
+        <div class="department-overview mt-5">
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+              <div class="department-image">
+                <img src="assets/img/health/pharmacy-3.avif" alt="Pharmacy Department" class="img-fluid rounded-lg">
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="department-services">
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+                  <div class="content">
+                    <h4>Prescription Services</h4>
+                    <p>Accurate dispensing of prescribed medications with professional counseling for safe usage.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-activity"></i></div>
+                  <div class="content">
+                    <h4>Medication Management</h4>
+                    <p>Monitoring drug interactions, dosages, and patient compliance for effective treatment outcomes.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-person-heart"></i></div>
+                  <div class="content">
+                    <h4>Patient Counseling</h4>
+                    <p>Personal guidance on medication use, side effects, and proper storage for patient safety.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="key-services mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="row gy-4">
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="600">
+              <h3>Our Specialized Services</h3>
+              <p>We provide complete pharmaceutical services, ensuring patients receive the right medications with proper guidance and care.</p>
+              <ul class="service-list">
+                <li><i class="bi bi-check-circle-fill"></i> Prescription and over-the-counter medications</li>
+                <li><i class="bi bi-check-circle-fill"></i> Medication counseling and guidance</li>
+                <li><i class="bi bi-check-circle-fill"></i> Chronic disease medication support</li>
+                <li><i class="bi bi-check-circle-fill"></i> Drug interaction monitoring</li>
+                <li><i class="bi bi-check-circle-fill"></i> Safe medication storage advice</li>
+              </ul>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="600">
+              <div class="cta-wrapper">
+                <div class="cta-content">
+                  <h3>Expert Care When You Need It Most</h3>
+                    <p>Our pharmacy team ensures every patient receives safe, accurate, and professional medication support.</p>
+                  <div class="cta-buttons">
+                    <a href="/appointment" class="btn btn-primary">Book Appointment</a>
+                    <a href="/services" class="btn btn-outline">Learn More</a>
+                  </div>
+                </div>
+                <div class="cta-image">
+                  <img src="assets/img/health/cardiology-3.webp" alt="Cardiology Team" class="img-fluid rounded-lg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- Pharmacy Department Details Section -->
+
+      <!-- Surgery Department Details Section -->
+   <section id="surgery" class="department-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-8 mx-auto text-center intro" data-aos="fade-up" data-aos-delay="200">
+            <h2>Surgery Department</h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead">Our Surgery Department provides safe, precise, and advanced surgical care, supported by experienced surgeons and modern medical technology for optimal patient recovery.</p>
+          </div>
+        </div>
+
+        <div class="department-overview mt-5">
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+              <div class="department-image">
+                <img src="assets/img/health/surgery-5.jpg" alt="Surgery Department" class="img-fluid rounded-lg">
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="department-services">
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+                  <div class="content">
+              <h4>General & Specialized Surgery</h4>
+              <p>Providing a wide range of surgical procedures with high standards of safety, precision, and patient comfort.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-activity"></i></div>
+                  <div class="content">
+                  <h4>Advanced Surgical Technology</h4>
+                  <p>Utilizing modern equipment and minimally invasive techniques to ensure faster recovery and reduced risks.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-person-heart"></i></div>
+                  <div class="content">
+                    <h4>Personalized Surgical Care</h4>
+                    <p>Each patient receives a customized treatment and recovery plan based on their specific medical needs.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="key-services mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="row gy-4">
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="600">
+              <h3>Our Specialized Services</h3>
+              <p>We offer comprehensive surgical services, focusing on patient safety, precision, and continuous post-operative care for successful recovery.</p>
+              <ul class="service-list">
+                <li><i class="bi bi-check-circle-fill"></i> General and laparoscopic surgery</li>
+                <li><i class="bi bi-check-circle-fill"></i> Orthopedic and trauma surgery</li>
+                <li><i class="bi bi-check-circle-fill"></i> Minor and day-care procedures</li>
+                <li><i class="bi bi-check-circle-fill"></i> Pre-operative assessments</li>
+                <li><i class="bi bi-check-circle-fill"></i> Post-operative recovery care</li>
+              </ul>
+
+            </div>
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="600">
+              <div class="cta-wrapper">
+                <div class="cta-content">
+                  <h3>Expert Care When You Need It Most</h3>
+                    <p>Our surgical team is committed to delivering high-quality care, ensuring safety, comfort, and successful outcomes for every patient.</p>                  <div class="cta-buttons">
+                    <a href="/appointment" class="btn btn-primary">Book Appointment</a>
+                    <a href="/services" class="btn btn-outline">Learn More</a>
+                  </div>
+                </div>
+                <div class="cta-image">
+                  <img src="assets/img/health/cardiology-3.webp" alt="Cardiology Team" class="img-fluid rounded-lg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- Surgery Department Details Section -->
+
     <!-- Orthopedics Department Details Section -->
    <section id="orthopedics" class="department-details section">
 
@@ -534,10 +574,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/orthopedics-5.jpg" alt="Orthopedics Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -566,35 +602,6 @@ html {
                     <p>Personalized physical therapy and rehabilitation programs to improve mobility, strength, and overall musculoskeletal health.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
               </div>
             </div>
           </div>
@@ -653,10 +660,6 @@ html {
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <div class="department-image">
                 <img src="assets/img/health/pediatrics-5.jpg" alt="Pediatrics Department" class="img-fluid rounded-lg">
-                <div class="experience-badge">
-                  <span>15+</span>
-                  <p>Years of Excellence</p>
-                </div>
               </div>
             </div>
 
@@ -685,35 +688,6 @@ html {
                     <p>Individual care for common illnesses, chronic conditions, and developmental needs.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="department-stats" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="2">0</div>
-                <p>Patients Treated</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2">0</div>
-                <p>Specialized Doctors</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="2">0</div>
-                <p>Success Rate</p>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="stat-item">
-                <div class="number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="2">0</div>
-                <p>Hours Service</p>
               </div>
             </div>
           </div>
@@ -753,6 +727,92 @@ html {
       </div>
 
     </section><!-- /Pediatrics Department Details Section -->
+
+    <!-- Emergency Care Department Details Section -->
+   <section id="emergency" class="department-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-8 mx-auto text-center intro" data-aos="fade-up" data-aos-delay="200">
+            <h2>Emergency Care Department</h2>
+            <div class="divider mx-auto"></div>
+            <p class="lead">Our Emergency Care Department provides fast, reliable, and life-saving medical services, available 24/7 to handle urgent and critical health conditions.</p>
+          </div>
+        </div>
+
+        <div class="department-overview mt-5">
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+              <div class="department-image">
+                <img src="assets/img/health/emergency-5.jpg" alt="Emergency Department" class="img-fluid rounded-lg">
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="department-services">
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+                  <div class="content">
+                    <h4>Rapid Emergency Response</h4>
+                    <p>Immediate assessment and treatment for injuries, trauma, and life-threatening medical conditions.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-activity"></i></div>
+                  <div class="content">
+                  <h4>Advanced Emergency Diagnostics</h4>
+                  <p>On-site imaging, laboratory testing, and monitoring for quick and accurate decision-making.</p>
+                  </div>
+                </div>
+
+                <div class="service-card">
+                  <div class="icon"><i class="bi bi-person-heart"></i></div>
+                  <div class="content">
+                <h4>Critical Care Management</h4>
+                  <p>Specialized care for patients requiring intensive observation and urgent medical intervention.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="key-services mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="row gy-4">
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="600">
+              <h3>Our Specialized Services</h3>
+              <p>We provide comprehensive emergency medical care with rapid response, modern equipment, and experienced professionals dedicated to saving lives.</p>
+              <ul class="service-list">
+                <li><i class="bi bi-check-circle-fill"></i> 24-hour emergency medical services</li>
+                <li><i class="bi bi-check-circle-fill"></i> Trauma and accident care</li>
+                <li><i class="bi bi-check-circle-fill"></i> Cardiac and stroke emergency response</li>
+                <li><i class="bi bi-check-circle-fill"></i> Emergency imaging and laboratory services</li>
+                <li><i class="bi bi-check-circle-fill"></i> Ambulance and referral coordination</li>
+              </ul>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="600">
+              <div class="cta-wrapper">
+                <div class="cta-content">
+                  <h3>Expert Care When You Need It Most</h3>
+                    <p>Our emergency team is always ready to deliver fast, professional, and compassionate care when every second matters.</p>
+                  <div class="cta-buttons">
+                    <a href="/appointment" class="btn btn-primary">Book Appointment</a>
+                    <a href="/services" class="btn btn-outline">Learn More</a>
+                  </div>
+                </div>
+                <div class="cta-image">
+                  <img src="assets/img/health/cardiology-3.webp" alt="Cardiology Team" class="img-fluid rounded-lg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- Pharmacy Department Details Section -->
 
 
 </main>

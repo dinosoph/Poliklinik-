@@ -43,11 +43,6 @@
               </div>
               <div class="department-content">
                 <p>Comprehensive cardiovascular care with advanced diagnostics techniques and treatment options for heart conditions, ensuring optimal cardiac health for all patients.</p>
-              <!--  <ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Advanced Cardiac Surgery</li>
-                  <li><i class="bi bi-check2"></i> Interventional Cardiology</li>
-                  <li><i class="bi bi-check2"></i> Heart Rhythm Management</li>
-                </ul> -->
                 <a href="{{ route('departments.details') }}#cardiology">Learn More</a>
               </div>
             </div>
@@ -66,19 +61,33 @@
               </div>
               <div class="department-content">
                 <p>Comprehensive cancer care with multidisciplinary approach, offering advanced treatment options, clinical trials, and compassionate support throughout the cancer journey.</p>
-                <!--<ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Cosmetic Dermatology</li>
-                  <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
-                  <li><i class="bi bi-check2"></i> Laser Therapy</li>
-                </ul> -->
                <a href="{{ route('departments.details') }}#oncology">Learn More</a>
               </div>
             </div>
+
+             <!-- 3. Surgery -->
+            <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
+              <div class="department-header">
+                <div class="department-icon">
+                  <i class="fa fa-x-ray"></i>
+                </div>
+                <h3>Surgery</h3>
+                <p class="department-subtitle">Advanced Surgical Care</p>
+              </div>
+              <div class="department-image-wrapper">
+                <img src="assets/img/health/surgery-4.jpg" alt="Surgery" class="img-fluid" loading="lazy">
+              </div>
+              <div class="department-content">
+              <p>Delivering safe and precise surgical procedures using modern techniques and technology, supported by experienced surgeons and comprehensive post-operative care.</p>
+               <a href="{{ route('departments.details') }}#surgery">Learn More</a>
+              </div>
+            </div>
+
           </div>
           <!-- End First Column -->
 
           <!-- Second Column with 2 departments -->
-           <!-- 3. Neurology -->
+           <!-- 4. Neurology -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="department-card">
               <div class="department-header">
@@ -103,16 +112,11 @@
               </div>
               <div class="department-content">
                 <p>Expert neurological care specializing in brain and nervous system disorders, providing cutting-edge treatments and compassionate support for neurological conditions.</p>
-              <!--  <ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Advanced Cardiac Surgery</li>
-                  <li><i class="bi bi-check2"></i> Interventional Cardiology</li>
-                  <li><i class="bi bi-check2"></i> Heart Rhythm Management</li>
-                </ul> -->
                 <a href="{{ route('departments.details') }}#neurology">Learn More</a>
               </div>
             </div>
 
-            <!-- 4. Dermatology -->
+            <!-- 5. Dermatology -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
               <div class="department-header">
                 <div class="department-icon">
@@ -126,18 +130,32 @@
               </div>
               <div class="department-content">
               <p>Comprehensive skin care services including accurate diagnosis, effective treatment, and advanced cosmetic procedures to maintain healthy, clear, and radiant skin for patients of all ages.</p>
-                <!--<ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Cosmetic Dermatology</li>
-                  <li><i class="bi bi-check2"></i> Skin Cancer Treatment</li>
-                  <li><i class="bi bi-check2"></i> Laser Therapy</li>
-                </ul> -->
                <a href="{{ route('departments.details') }}#dermatology">Learn More</a>
               </div>
             </div>
-          </div><!-- End Second Column -->
+          
+           <!-- 6. Emergency Care -->
+            <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
+              <div class="department-header">
+                <div class="department-icon">
+                  <i class="fas fa-ambulance"></i>
+                </div>
+                <h3>Emergency Care</h3>
+                <p class="department-subtitle"> 24/7 Critical Response </p>
+              </div>
+              <div class="department-image-wrapper">
+                <img src="assets/img/health/emergency-2.webp" alt="Emergency Care" class="img-fluid" loading="lazy">
+              </div>
+              <div class="department-content">
+              <p>Providing immediate medical attention for life-threatening conditions, trauma, and urgent health emergencies with rapid assessment, advanced equipment, and experienced medical teams.</p>
+               <a href="{{ route('departments.details') }}#emergency">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Second Column -->
 
           <!-- Third Column with 2 departments -->
-           <!-- 5. Orthopedics -->
+           <!-- 7. Orthopedics -->
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="department-card">
               <div class="department-header">
@@ -152,20 +170,15 @@
               </div>
               <div class="department-content">
                 <p>Advanced musculoskeletal care focusing on bone, joints, and muscles with innovative surgical and non-surgical treatment approaches for mobility restoration.</p>
-                <!--<ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Joint Replacement</li>
-                  <li><i class="bi bi-check2"></i> Sports Medicine</li>
-                  <li><i class="bi bi-check2"></i> Spine Surgery</li>
-                </ul> -->
                 <a href="{{ route('departments.details') }}#orthopedics">Learn More</a>
               </div>
             </div>
 
-            <!-- 6. Pediatrics -->
+            <!-- 8. Pediatrics -->
             <div class="department-card" data-aos="zoom-in" data-aos-delay="400">
               <div class="department-header">
                 <div class="department-icon">
-                  <i class="bi bi-emoji-smile"></i>
+                  <i class="fa fa-baby"></i>
                 </div>
                 <h3>Pediatrics</h3>
                 <p class="department-subtitle">Children's Health</p>
@@ -175,14 +188,28 @@
               </div>
               <div class="department-content">
                 <p>Specialized healthcare for children from infancy through adolescence, offering comprehensive medical care in a child-friendly environment with experienced pediatric specialists.</p>
-                <!--<ul class="department-highlights">
-                  <li><i class="bi bi-check2"></i> Newborn Care</li>
-                  <li><i class="bi bi-check2"></i> Child Development</li>
-                  <li><i class="bi bi-check2"></i> Vaccination Programs</li>
-                </ul>-->
                 <a href="{{ route('departments.details') }}#pediatrics">Learn More</a>
               </div>
             </div>
+
+             <!-- 9. Pharmacy -->
+            <div class="department-card" data-aos="zoom-in" data-aos-delay="350">
+              <div class="department-header">
+                <div class="department-icon">
+                  <i class="bi bi-emoji-smile "></i>
+                </div>
+                <h3>Pharmacy</h3>
+                <p class="department-subtitle"> safe medication </p>
+              </div>
+              <div class="department-image-wrapper">
+                <img src="assets/img/health/pharmacy-4.jpg" alt="Pharmacy" class="img-fluid" loading="lazy">
+              </div>
+              <div class="department-content">
+                <p>Providing safe, accurate, and professional medication services, including prescription dispensing, patient counseling, and support to ensure effective and responsible treatment outcomes.</p>
+               <a href="{{ route('departments.details') }}#pharmacy">Learn More</a>
+              </div>
+            </div>
+
           </div><!-- End Third Column -->
 
         </div>
