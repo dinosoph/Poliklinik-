@@ -28,7 +28,7 @@ html {
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Category</a></li>
+            <li class="breadcrumb-item"><a href="/">Department</a></li>
             <li class="breadcrumb-item active current">Department Details</li>
           </ol>
         </nav>

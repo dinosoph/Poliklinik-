@@ -6,11 +6,13 @@
     <!-- Page Title -->
     <div class="page-title">
         <div class="breadcrumbs">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                </ol>
-            </nav>
-        </div>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/"><i class="bi bi-house"></i> Home</a></li>
+            <li class="breadcrumb-item active current">About</li>
+          </ol>
+        </nav>
+      </div>
 
         <div class="title-wrapper">
             <h1 class="page-heading">About</h1>
