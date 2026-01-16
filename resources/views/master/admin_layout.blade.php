@@ -6,6 +6,8 @@
     <meta http-equiv="refresh" content="60">
     <title>Poliklinik Alisya Admin</title>
 
+    <link href="assets/img/logo1.png" rel="icon">
+
     <!-- Vendor CSS Files from your public/assets folder [5] -->
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
