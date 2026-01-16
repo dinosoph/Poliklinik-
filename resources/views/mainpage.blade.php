@@ -140,7 +140,7 @@
 
               <div class="cta-wrapper mt-4">
                 <a href="/about" class="btn btn-primary">Learn More About Us</a>
-                <a href="/doctor" class="btn btn-outline">Meet Our Team</a>
+                <a href="{{ route('profile.doctor') }}" class="btn btn-outline">Meet Our Team</a>
               </div>
             </div>
           </div>
